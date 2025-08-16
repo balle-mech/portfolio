@@ -4,30 +4,24 @@
   --color-body: #050505;
   --color-selected-text: #a3a3ff;
   --color-theme: #5c318c;
+  --color-secondary: #9191a4;
+  --color-badge: #3f3f51;
   --font-poppins: "Poppins", sans-serif;
 }
 
-.easy-button {
-  padding: 8px 16px;
-  background-color: rgb(101, 101, 208);
-  color: white;
-  border-radius: 4px;
-  font: bold;
-  margin-left: 40px;
+.secondary-title {
+  @apply text-3xl font-bold;
 }
 
-.easy-button:hover {
-  background-color: rgb(81, 81, 168);
+.secondary-title::before {
+  content: "";
+  @apply bg-theme mb-1 block h-2 w-12 rounded-full;
 }
 
-.btn {
-  @apply font-bold py-2 px-4 rounded ml-10;
+.section-paragraph {
+  @apply text-secondary my-6 w-full max-w-3xl;
 }
 
-.btn-blue {
-  @apply bg-blue-500 text-white;
-}
-
-.btn-blue:hover {
-  @apply bg-blue-700;
+.badge {
+  @apply bg-badge px-4 py-2 text-sm;
 }
