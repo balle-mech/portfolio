@@ -6,7 +6,14 @@
   --color-theme: #5c318c;
   --color-secondary: #9191a4;
   --color-badge: #3f3f51;
+  --color-inputBorder: #565666;
+  --color-input: #2a2a33;
   --font-poppins: "Poppins", sans-serif;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
 }
 
 .secondary-title {
