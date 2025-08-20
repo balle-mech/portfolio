@@ -50,7 +50,49 @@
             </button>
           </a>
         </div>
-        <div class="md:hidden"><i class="fa-solid fa-bars"></i></div>
+        <div class="md:hidden">
+          <button id="mobile-menu-button" class="text-white focus:outline-none">
+            <i class="fa-solid fa-bars text-2xl"></i>
+          </button>
+        </div>
+        
+        <!-- Mobile Navigation Menu -->
+        <div id="mobile-menu" class="fixed top-0 left-0 w-full h-full bg-body z-50 transform -translate-x-full transition-transform duration-300 ease-in-out md:hidden">
+          <div class="flex flex-col h-full">
+            <div class="flex items-center justify-between p-6 border-b border-gray-700">
+              <div class="text-lg font-bold">balle-mech</div>
+              <button id="mobile-menu-close" class="text-white focus:outline-none">
+                <i class="fa-solid fa-times text-2xl"></i>
+              </button>
+            </div>
+            <nav class="flex-1 px-6 py-8">
+              <div class="space-y-8">
+                <a
+                  href="#home"
+                  class="mobile-menu-link block text-xl font-medium hover:text-selected-text transition-all duration-300"
+                  >ホーム</a
+                >
+                <a
+                  href="#output"
+                  class="mobile-menu-link block text-xl font-medium hover:text-selected-text transition-all duration-300"
+                  >アウトプット</a
+                >
+                <a
+                  href="#skills"
+                  class="mobile-menu-link block text-xl font-medium hover:text-selected-text transition-all duration-300"
+                  >スキル一覧</a
+                >
+                <a href="#contact" class="mobile-menu-link block">
+                  <button
+                    class="bg-theme rounded-lg px-6 py-3 font-bold text-lg transition-all duration-300 hover:bg-purple-600 w-full text-left"
+                  >
+                    お問い合わせ
+                  </button>
+                </a>
+              </div>
+            </nav>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -377,5 +419,43 @@
         </div>
       </section>
     </div>
+    <script>
+      // Mobile menu functionality
+      const mobileMenuButton = document.getElementById('mobile-menu-button');
+      const mobileMenu = document.getElementById('mobile-menu');
+      const mobileMenuClose = document.getElementById('mobile-menu-close');
+      const mobileMenuLinks = document.querySelectorAll('.mobile-menu-link');
+
+      // Open mobile menu
+      mobileMenuButton.addEventListener('click', () => {
+        mobileMenu.classList.remove('-translate-x-full');
+      });
+
+      // Close mobile menu
+      mobileMenuClose.addEventListener('click', () => {
+        mobileMenu.classList.add('-translate-x-full');
+      });
+
+      // Close mobile menu when clicking on links
+      mobileMenuLinks.forEach(link => {
+        link.addEventListener('click', () => {
+          mobileMenu.classList.add('-translate-x-full');
+        });
+      });
+
+      // Close mobile menu when clicking outside
+      mobileMenu.addEventListener('click', (e) => {
+        if (e.target === mobileMenu) {
+          mobileMenu.classList.add('-translate-x-full');
+        }
+      });
+
+      // Close mobile menu on escape key
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && !mobileMenu.classList.contains('-translate-x-full')) {
+          mobileMenu.classList.add('-translate-x-full');
+        }
+      });
+    </script>
   </body>
 </html>
