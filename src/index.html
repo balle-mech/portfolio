@@ -23,7 +23,7 @@
     <!-- ナビゲーションバー -->
     <header class="py-6">
       <div
-        class="container mx-auto flex items-center justify-between px-8 md:px-14 xl:px-24"
+        class="container mx-auto flex items-center justify-between px-8 md:px-14 xl:px-24 relative"
       >
         <div class="text-lg font-bold">balle-mech</div>
         <div class="hidden items-center space-x-12 md:flex">
@@ -50,7 +50,41 @@
             </button>
           </a>
         </div>
-        <div class="md:hidden"><i class="fa-solid fa-bars"></i></div>
+        <div class="md:hidden">
+          <button id="mobile-menu-button" class="text-white focus:outline-none">
+            <i class="fa-solid fa-bars text-2xl"></i>
+          </button>
+        </div>
+        
+        <!-- Mobile Navigation Menu -->
+        <div id="mobile-menu" class="absolute top-full left-0 w-full bg-body border-t border-gray-700 shadow-lg transform -translate-y-full opacity-0 transition-all duration-300 ease-in-out md:hidden z-50">
+          <nav class="px-6 py-4">
+            <div class="space-y-4">
+              <a
+                href="#home"
+                class="mobile-menu-link block text-lg font-medium hover:text-selected-text transition-all duration-300 py-2 border-b border-gray-800 last:border-b-0"
+                >ホーム</a
+              >
+              <a
+                href="#output"
+                class="mobile-menu-link block text-lg font-medium hover:text-selected-text transition-all duration-300 py-2 border-b border-gray-800 last:border-b-0"
+                >アウトプット</a
+              >
+              <a
+                href="#skills"
+                class="mobile-menu-link block text-lg font-medium hover:text-selected-text transition-all duration-300 py-2 border-b border-gray-800 last:border-b-0"
+                >スキル一覧</a
+              >
+              <a href="#contact" class="mobile-menu-link block py-2">
+                <button
+                  class="bg-theme rounded-lg px-4 py-2 font-bold transition-all duration-300 hover:bg-purple-600 w-full text-left"
+                >
+                  お問い合わせ
+                </button>
+              </a>
+            </div>
+          </nav>
+        </div>
       </div>
     </header>
 
@@ -377,5 +411,61 @@
         </div>
       </section>
     </div>
+    <script>
+      // Mobile menu functionality
+      const mobileMenuButton = document.getElementById('mobile-menu-button');
+      const mobileMenu = document.getElementById('mobile-menu');
+      const mobileMenuLinks = document.querySelectorAll('.mobile-menu-link');
+      
+      let isMenuOpen = false;
+
+      function toggleMobileMenu() {
+        isMenuOpen = !isMenuOpen;
+        if (isMenuOpen) {
+          // Show menu
+          mobileMenu.classList.remove('-translate-y-full', 'opacity-0');
+          mobileMenu.classList.add('translate-y-0', 'opacity-100');
+        } else {
+          // Hide menu
+          mobileMenu.classList.remove('translate-y-0', 'opacity-100');
+          mobileMenu.classList.add('-translate-y-full', 'opacity-0');
+        }
+      }
+
+      function closeMobileMenu() {
+        if (isMenuOpen) {
+          isMenuOpen = false;
+          mobileMenu.classList.remove('translate-y-0', 'opacity-100');
+          mobileMenu.classList.add('-translate-y-full', 'opacity-0');
+        }
+      }
+
+      // Toggle mobile menu on button click
+      mobileMenuButton.addEventListener('click', (e) => {
+        e.stopPropagation();
+        toggleMobileMenu();
+      });
+
+      // Close mobile menu when clicking on links
+      mobileMenuLinks.forEach(link => {
+        link.addEventListener('click', () => {
+          closeMobileMenu();
+        });
+      });
+
+      // Close mobile menu when clicking outside
+      document.addEventListener('click', (e) => {
+        if (isMenuOpen && !mobileMenu.contains(e.target) && !mobileMenuButton.contains(e.target)) {
+          closeMobileMenu();
+        }
+      });
+
+      // Close mobile menu on escape key
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && isMenuOpen) {
+          closeMobileMenu();
+        }
+      });
+    </script>
   </body>
 </html>
