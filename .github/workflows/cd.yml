@@ -1,10 +1,8 @@
-# Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
+name: Deploy to GitHub Pages
 
 on:
-  # Runs on pushes targeting the default branch
   push:
-    branches: ["main"]
+    branches: ["main", "develop"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -22,7 +20,6 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Single deploy job since we're just deploying
   deploy:
     environment:
       name: github-pages
@@ -41,11 +38,44 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build TailwindCSS
-        run: npm run build
+      - name: Build for main branch
+        if: github.ref == 'refs/heads/main'
+        run: |
+          npm run build
+
+      - name: Build for develop branch
+        if: github.ref == 'refs/heads/develop'
+        run: |
+          # 環境変数を設定してビルド
+          REACT_APP_ENV=preview \
+          REACT_APP_BRANCH=develop \
+          REACT_APP_BASE_URL=/develop \
+          npm run build
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
+
+      - name: Prepare deployment directory
+        run: |
+          mkdir -p ./deploy
+
+          if [ "${{ github.ref }}" == "refs/heads/main" ]; then
+            # mainブランチの場合はルートにデプロイ
+            cp -r ./dist/* ./deploy/
+          else
+            # developブランチの場合は/develop/にデプロイ
+            mkdir -p ./deploy/develop
+            cp -r ./dist/* ./deploy/develop/
+
+            # 既存のmainブランチの内容も保持
+            git fetch origin gh-pages || true
+            if git show-branch remotes/origin/gh-pages 2>/develop/null; then
+              git checkout gh-pages
+              cp -r ./* ./deploy/ 2>/develop/null || true
+              git checkout ${{ github.ref_name }}
+              cp -r ./dist/* ./deploy/develop/
+            fi
+          fi
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
