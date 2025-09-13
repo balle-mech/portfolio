@@ -61,11 +61,11 @@ jobs:
 
           if [ "${{ github.ref }}" == "refs/heads/main" ]; then
             # mainブランチの場合はルートにデプロイ
-            cp -r ./dist/* ./deploy/
+            cp -r ./src/* ./deploy/
           else
             # developブランチの場合は/develop/にデプロイ
             mkdir -p ./deploy/develop
-            cp -r ./dist/* ./deploy/develop/
+            cp -r ./src/* ./deploy/develop/
 
             # 既存のmainブランチの内容も保持
             git fetch origin gh-pages || true
@@ -73,7 +73,7 @@ jobs:
               git checkout gh-pages
               cp -r ./* ./deploy/ 2>/develop/null || true
               git checkout ${{ github.ref_name }}
-              cp -r ./dist/* ./deploy/develop/
+              cp -r ./src/* ./deploy/develop/
             fi
           fi
 
