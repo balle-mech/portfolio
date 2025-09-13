@@ -28,11 +28,6 @@
         <div class="text-lg font-bold">balle-mech</div>
         <nav class="hidden items-center space-x-12 md:flex">
           <a
-            href="#home"
-            class="hover:text-selected-text transition-all duration-300"
-            >ホーム</a
-          >
-          <a
             href="#output"
             class="hover:text-selected-text transition-all duration-300"
             >アウトプット</a
@@ -73,15 +68,6 @@
       class="fixed top-24 right-8 z-40 w-80 origin-top-right translate-y-2 scale-95 transform rounded-2xl border border-gray-700/50 bg-gray-900/95 opacity-0 shadow-2xl backdrop-blur-lg transition-all duration-300 ease-out md:hidden"
     >
       <div class="py-3">
-        <a
-          href="#home"
-          class="mobile-menu-link hover:text-selected-text group mx-3 flex items-center rounded-xl px-6 py-4 text-white transition-all duration-200 hover:bg-gray-800/50"
-        >
-          <i
-            class="fa-solid fa-home group-hover:text-selected-text w-5 text-gray-400 transition-colors duration-200"
-          ></i>
-          <span class="ml-4 text-lg font-medium">ホーム</span>
-        </a>
         <a
           href="#output"
           class="mobile-menu-link hover:text-selected-text group mx-3 flex items-center rounded-xl px-6 py-4 text-white transition-all duration-200 hover:bg-gray-800/50"
@@ -434,94 +420,6 @@
         </div>
       </section>
     </div>
-    <script>
-      // Modern mobile menu functionality
-      const mobileMenuButton = document.getElementById("mobile-menu-button");
-      const mobileMenu = document.getElementById("mobile-menu");
-      const mobileMenuLinks = document.querySelectorAll(".mobile-menu-link");
-      const hamburgerLines = document.querySelectorAll(".hamburger-line");
-
-      let isMenuOpen = false;
-
-      // Toggle menu function with smooth animation
-      function toggleMenu() {
-        isMenuOpen = !isMenuOpen;
-
-        if (isMenuOpen) {
-          // Open menu - smooth dropdown animation
-          mobileMenu.classList.remove("opacity-0", "scale-95", "translate-y-2");
-          mobileMenu.classList.add("opacity-100", "scale-100", "translate-y-0");
-
-          // Animate hamburger to X
-          hamburgerLines[0].style.transform =
-            "rotate(45deg) translate(5px, 5px)";
-          hamburgerLines[1].style.opacity = "0";
-          hamburgerLines[2].style.transform =
-            "rotate(-45deg) translate(7px, -6px)";
-        } else {
-          // Close menu
-          mobileMenu.classList.remove(
-            "opacity-100",
-            "scale-100",
-            "translate-y-0",
-          );
-          mobileMenu.classList.add("opacity-0", "scale-95", "translate-y-2");
-
-          // Animate X back to hamburger
-          hamburgerLines[0].style.transform = "rotate(0) translate(0, 0)";
-          hamburgerLines[1].style.opacity = "1";
-          hamburgerLines[2].style.transform = "rotate(0) translate(0, 0)";
-        }
-      }
-
-      // Close menu function
-      function closeMenu() {
-        if (isMenuOpen) {
-          isMenuOpen = false;
-          mobileMenu.classList.remove(
-            "opacity-100",
-            "scale-100",
-            "translate-y-0",
-          );
-          mobileMenu.classList.add("opacity-0", "scale-95", "translate-y-2");
-
-          // Reset hamburger
-          hamburgerLines[0].style.transform = "rotate(0) translate(0, 0)";
-          hamburgerLines[1].style.opacity = "1";
-          hamburgerLines[2].style.transform = "rotate(0) translate(0, 0)";
-        }
-      }
-
-      // Toggle mobile menu on button click
-      mobileMenuButton.addEventListener("click", (e) => {
-        e.stopPropagation();
-        toggleMenu();
-      });
-
-      // Close mobile menu when clicking on links
-      mobileMenuLinks.forEach((link) => {
-        link.addEventListener("click", () => {
-          closeMenu();
-        });
-      });
-
-      // Close mobile menu when clicking outside
-      document.addEventListener("click", (e) => {
-        if (
-          isMenuOpen &&
-          !mobileMenu.contains(e.target) &&
-          !mobileMenuButton.contains(e.target)
-        ) {
-          closeMenu();
-        }
-      });
-
-      // Close mobile menu on escape key
-      document.addEventListener("keydown", (e) => {
-        if (e.key === "Escape" && isMenuOpen) {
-          closeMenu();
-        }
-      });
-    </script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
