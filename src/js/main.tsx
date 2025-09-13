@@ -1,9 +1,18 @@
+import { createRoot } from "react-dom/client";
+
+// Clear the existing HTML content
+document.body.innerHTML = '<div id="app"></div>';
+
+// Render your React component instead
+const root = createRoot(document.getElementById("app"));
+root.render(<h1>Hello, world</h1>);
+
 // Wait for DOM to be fully loaded
-  // Mobile menu functionality
-  const mobileMenuButton = document.getElementById("mobile-menu-button");
-  const mobileMenu = document.getElementById("mobile-menu");
-  const mobileMenuLinks = document.querySelectorAll(".mobile-menu-link");
-  const hamburgerLines = document.querySelectorAll(".hamburger-line");
+// Mobile menu functionality
+const mobileMenuButton = document.getElementById("mobile-menu-button");
+const mobileMenu = document.getElementById("mobile-menu");
+const mobileMenuLinks = document.querySelectorAll(".mobile-menu-link");
+const hamburgerLines = document.querySelectorAll(".hamburger-line");
 
 let isMenuOpen = false;
 
@@ -75,4 +84,4 @@ document.addEventListener("keydown", (e) => {
   if (e.key === "Escape" && isMenuOpen) {
     closeMenu();
   }
-  });
+});
