@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main", "develop"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -44,13 +44,13 @@ jobs:
         run: |
           npm run build
 
-      - name: Build for dev branch
-        if: github.ref == 'refs/heads/dev'
+      - name: Build for develop branch
+        if: github.ref == 'refs/heads/develop'
         run: |
           # 環境変数を設定してビルド
           REACT_APP_ENV=preview \
-          REACT_APP_BRANCH=dev \
-          REACT_APP_BASE_URL=/dev \
+          REACT_APP_BRANCH=develop \
+          REACT_APP_BASE_URL=/develop \
           npm run build
 
       - name: Setup Pages
@@ -64,17 +64,17 @@ jobs:
             # mainブランチの場合はルートにデプロイ
             cp -r ./dist/* ./deploy/
           else
-            # devブランチの場合は/dev/にデプロイ
-            mkdir -p ./deploy/dev
-            cp -r ./dist/* ./deploy/dev/
+            # developブランチの場合は/develop/にデプロイ
+            mkdir -p ./deploy/develop
+            cp -r ./dist/* ./deploy/develop/
 
             # 既存のmainブランチの内容も保持
             git fetch origin gh-pages || true
-            if git show-branch remotes/origin/gh-pages 2>/dev/null; then
+            if git show-branch remotes/origin/gh-pages 2>/develop/null; then
               git checkout gh-pages
-              cp -r ./* ./deploy/ 2>/dev/null || true
+              cp -r ./* ./deploy/ 2>/develop/null || true
               git checkout ${{ github.ref_name }}
-              cp -r ./dist/* ./deploy/dev/
+              cp -r ./dist/* ./deploy/develop/
             fi
           fi
 
