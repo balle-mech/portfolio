@@ -94,7 +94,7 @@ const SkillsSection = () => {
               <img
                 width="150"
                 height="150"
-                src="./images/stacked-lockup-full-color-white-rgb.svg"
+                src="/images/stacked-lockup-full-color-white-rgb.svg"
                 alt="Databricks Logo"
               />
             </div>

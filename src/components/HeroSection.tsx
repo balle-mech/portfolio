@@ -11,7 +11,7 @@ const HeroSection = () => {
           </h1>
         </div>
         <img
-          src="./images/bread.png"
+          src="/images/bread.png"
           alt="top image"
           className="right-6 -z-10 mx-auto mt-12 w-1/4 md:absolute md:mt-0 lg:w-1/3"
         />
