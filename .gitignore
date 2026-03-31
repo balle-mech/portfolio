@@ -1,2 +1,13 @@
+# Dependencies
 node_modules/
+
+# Build output
+dist/
+
+# Development
 todo.md
+.DS_Store
+*.log
+
+# Claude steering documents are tracked in Git
+# (.claude/steering/active/ and .claude/steering/archive/ are version controlled)
