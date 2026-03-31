@@ -79,21 +79,43 @@ Claude による開発管理のためのディレクトリ。
 ### ブランチ構成
 
 ```
-main              # 本番環境
+main              # 本番環境（https://balle-mech.github.io/portfolio/）
   ↑
-develop           # 開発統合
+develop           # 開発統合・ステージング環境（https://balle-mech.github.io/portfolio/staging/）
   ↑
 feature/xxx       # 機能追加
 fix/xxx           # バグ修正
 chore/xxx         # その他作業
+hotfix/xxx        # 緊急修正（mainから分岐）
 ```
 
-### マージフロー
+### 開発フロー
 
-1. 作業ブランチ → `develop` へ PR
-2. CI パス確認
-3. `develop` → `main` へ PR
-4. CD 実行、GitHub Pages デプロイ
+#### 通常の開発
+
+1. **ブランチ作成**: `develop` から `feature/xxx` または `fix/xxx` を切る
+2. **実装**: featureブランチで作業
+3. **PR作成**: `feature/xxx` → `develop` へPR作成
+4. **レビュー・CI確認**: テスト・ビルドが成功することを確認
+5. **マージ**: `develop` へマージ
+6. **ステージング確認**: https://balle-mech.github.io/portfolio/staging/ で動作確認
+7. **本番リリース**: `develop` → `main` へPR作成・マージ
+
+#### 緊急修正（本番障害）
+
+1. **ブランチ作成**: `main` から `hotfix/xxx` を切る
+2. **修正**: hotfixブランチで作業
+3. **PR作成**: `hotfix/xxx` → `main` へPR作成
+4. **レビュー・CI確認**: テスト・ビルドが成功することを確認
+5. **マージ**: `main` へマージ
+6. **バックマージ**: `main` → `develop` へもマージして同期
+
+### ルール
+
+- **mainへの直接マージ禁止**: 必ずPRを経由する
+- **developからの作業**: 通常の開発は必ずdevelopから分岐
+- **hotfixの例外**: 本番障害のみmainから直接分岐可能
+- **PR必須**: すべてのマージはPRとレビューを経由
 
 ## Git 管理
 
