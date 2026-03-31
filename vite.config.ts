@@ -5,6 +5,7 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   root: "src",
+  publicDir: "../public",
   base: process.env.VITE_BASE_PATH || "/portfolio/",
   build: {
     outDir: "../dist",
