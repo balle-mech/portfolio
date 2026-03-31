@@ -9,32 +9,32 @@ const OutputSection = () => {
         <p className="section-paragraph">私のアウトプットはこちら</p>
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           <img
-            src="./images/portfolio1.jpg"
+            src="images/portfolio1.jpg"
             alt=""
             className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"
           />
           <img
-            src="./images/portfolio2.jpg"
+            src="images/portfolio2.jpg"
             alt=""
             className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"
           />
           <img
-            src="./images/portfolio3.jpg"
+            src="images/portfolio3.jpg"
             alt=""
             className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"
           />
           <img
-            src="./images/portfolio4.jpg"
+            src="images/portfolio4.jpg"
             alt=""
             className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"
           />
           <img
-            src="./images/portfolio5.jpg"
+            src="images/portfolio5.jpg"
             alt=""
             className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"
           />
           <img
-            src="./images/portfolio6.jpg"
+            src="images/portfolio6.jpg"
             alt=""
             className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"
           />
