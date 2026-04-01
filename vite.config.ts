@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   root: "src",
   publicDir: "../public",
-  base: process.env.VITE_BASE_PATH || "/portfolio/",
+  base: process.env.VITE_BASE_PATH || "/",
   build: {
     outDir: "../dist",
     emptyOutDir: true,
