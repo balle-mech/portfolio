@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git checkout:*)",
+      "Bash(git pull:*)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "playwright"
+  ],
+  "sandbox": {
+    "enabled": true,
+    "autoAllowBashIfSandboxed": true
+  }
+}
