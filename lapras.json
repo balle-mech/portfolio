@@ -1,0 +1,2123 @@
+{
+  "name": "あつし",
+  "description": "24卒\r\n都内でデータ基盤エンジニアしてます。\r\n\r\n学部時代、研究室でPython、Webアプリ開発でRuby on rails、Reactを使っていました。\r\n間違っていることやアドバイスあればご教授いただけると不幸中の幸い極まりないです。",
+  "e_score": 3.37,
+  "b_score": 3.36,
+  "i_score": 3.16,
+  "iconimage_url": "https://www.gravatar.com/avatar/1bcf529ac08300272620fcab60f852a3?s=200&d=mp",
+  "enable_it_engineer": true,
+  "qiita_articles": [
+    {
+      "title": "Databricks Data Engineer Associateの学習内容まとめ",
+      "url": "https://qiita.com/ballemech/items/c73983dd87cdc415a03c",
+      "tags": [
+        "Databricks",
+        "Databricks認定データエンジニアアソシエイト"
+      ],
+      "headlines": [
+        "\nDatabricksの基本概念（Databricks Intelligence Platform）",
+        "\nデータ取り込みとパイプライン（Development and Ingestion）",
+        "\nデータ処理と変換（Data Processing & Transformations）",
+        "\nデータパイプラインの製品化（Productionizing Data Pipelines ）",
+        "\nおわりに"
+      ],
+      "stockers_count": 1,
+      "updated_at": "2026-02-08T09:50:27"
+    },
+    {
+      "title": "Delta Live Tablesとは？宣言型とは？",
+      "url": "https://qiita.com/ballemech/items/ac980ab22f6cd681b0c2",
+      "tags": [
+        "ETL",
+        "宣言型プログラミング",
+        "DeltaLiveTables"
+      ],
+      "headlines": [
+        "\n宣言型だとDLTにとって何がいいの？",
+        "\n命令型プログラミングとDLTを用いた宣言型プログラミング比較",
+        "\n命令型（Imperative）と宣言型（Declarative）の違いまとめ",
+        "\nワークフローとDLTの棲み分け",
+        "\n参考"
+      ],
+      "stockers_count": 0,
+      "updated_at": "2025-11-08T12:45:13"
+    },
+    {
+      "title": "MacBookでSoftbank AirのWi-Fiを使うと特定のサイトに繋がらない問題",
+      "url": "https://qiita.com/ballemech/items/02699d77d7532e5950ac",
+      "tags": [
+        "Mac",
+        "#ネットワーク",
+        "#MTU",
+        "ChatGPT",
+        "#softbankair"
+      ],
+      "headlines": [
+        "\n背景・状況",
+        "\n結論（解決策）",
+        "\n原因"
+      ],
+      "stockers_count": 2,
+      "updated_at": "2025-11-08T12:11:06"
+    },
+    {
+      "title": "レイクハウスアーキテクチャとは（社内勉強会での発表内容から作成）",
+      "url": "https://qiita.com/ballemech/items/5c75ad9909be248def3c",
+      "tags": [
+        "Databricks",
+        "レイクハウス"
+      ],
+      "headlines": [
+        "\nはじめに",
+        "\nデータ基盤アーキテクチャの変遷\n",
+        "\n第1世代：エンタープライズデータウェアハウス",
+        "\nデータレイクの登場",
+        "\nデータウェアハウス + データレイクの運用",
+        "\nレイクハウス",
+        "\nレイクハウスクイズ",
+        "\n参考"
+      ],
+      "stockers_count": 0,
+      "updated_at": "2025-10-18T18:44:48"
+    },
+    {
+      "title": "Gemini CLIでObsidianを管理してみた",
+      "url": "https://qiita.com/ballemech/items/dbbdd818f7a7aec2ef2c",
+      "tags": [
+        "Obsidian",
+        "GeminiCLI"
+      ],
+      "headlines": [
+        "\n導入",
+        "\nObsidianに使ってみる",
+        "\n終わりに"
+      ],
+      "stockers_count": 4,
+      "updated_at": "2025-07-26T19:16:24"
+    },
+    {
+      "title": "【Prettier】ファイル保存時自動整形機能が機能しない",
+      "url": "https://qiita.com/ballemech/items/80e747f853c53aa1bbb3",
+      "tags": [
+        "prettier",
+        "自動整形",
+        "devcontainer",
+        "フォーマッター"
+      ],
+      "headlines": [
+        "\n前提",
+        "\n結論",
+        "\nリモート拡張ホストとは"
+      ],
+      "stockers_count": 0,
+      "updated_at": "2025-07-13T17:20:09"
+    },
+    {
+      "title": "新卒1年目やってよかったこと",
+      "url": "https://qiita.com/ballemech/items/9b5ac6f9994549867049",
+      "tags": [
+        "技術書",
+        "カンファレンス"
+      ],
+      "headlines": [
+        "\nはじめに",
+        "\n土日一方もしくは両方の勉強・開発の習慣づけ",
+        "\n勉強会・カンファレンス参加",
+        "\n技術書などの書籍",
+        "\n資格取得",
+        "\n先輩との壁打ち",
+        "\nテック系Podcastを聴く",
+        "\n筋トレ",
+        "\n終わりに"
+      ],
+      "stockers_count": 0,
+      "updated_at": "2025-11-02T13:31:16"
+    },
+    {
+      "title": "RaspberryPiで計測した気温室温データをAzure Databricksのボリュームに定期アップロード",
+      "url": "https://qiita.com/ballemech/items/22e31dea041498d1326f",
+      "tags": [
+        "RaspberryPi",
+        "AzureDatabricks"
+      ],
+      "headlines": [
+        "\n前説",
+        "\n1. 外部ボリューム用のコンテナ準備",
+        "\n2. RaspberryPiからADLSにテストアップロード（逐次実行）",
+        "\n3. RaspberryPiからADLSにテストアップロード（定期実行）",
+        "\n4. ADLS ⇨ Azure Databricks",
+        "\n終わりに"
+      ],
+      "stockers_count": 0,
+      "updated_at": "2025-04-13T23:36:54"
+    },
+    {
+      "title": "「データ活用基盤？なにそれおいしいの？」新卒1年目を振り返る",
+      "url": "https://qiita.com/ballemech/items/3cd3741dda032358dfa7",
+      "tags": [
+        "ふりかえり",
+        "新卒エンジニア"
+      ],
+      "headlines": [
+        "\n4月〜8月：（研修）",
+        "\n9月以降：（配属後のリアル）"
+      ],
+      "stockers_count": 0,
+      "updated_at": "2025-07-01T14:56:56"
+    },
+    {
+      "title": "Azure DatabricksのUnity Catalogでカタログを使えるようにするまで",
+      "url": "https://qiita.com/ballemech/items/0b77b159aba6d27f5ab6",
+      "tags": [
+        "AzureDatabricks",
+        "UnityCatalog"
+      ],
+      "headlines": [
+        "\nAzureにてワークスペース作成",
+        "\nアカウントコンソールに入れないとき",
+        "\nUnity Catalogの設定"
+      ],
+      "stockers_count": 0,
+      "updated_at": "2025-04-06T13:07:53"
+    },
+    {
+      "title": "Raspberry Pi 5とDHT-11で温度・湿度を計測する",
+      "url": "https://qiita.com/ballemech/items/b8cd6165fbb7187b5e78",
+      "tags": [
+        "DHT11",
+        "raspberrypi5"
+      ],
+      "headlines": [
+        "\n購入したセンサー",
+        "\n1. DHT11センサーをRaspberry Piに接続する",
+        "\n2. DHT11用のdtoverlayを設定する",
+        "\n3. DHT11センサーが認識されているか確認",
+        "\n4. Pythonスクリプトで温度・湿度を取得"
+      ],
+      "stockers_count": 0,
+      "updated_at": "2025-03-02T19:31:22"
+    },
+    {
+      "title": "Raspberry PiとAzure VMを使ってAPIを外部公開",
+      "url": "https://qiita.com/ballemech/items/29aaf92993d396847ace",
+      "tags": [
+        "nginx",
+        "RaspberryPi",
+        "WEBサーバー",
+        "AzureVM",
+        "FastAPI"
+      ],
+      "headlines": [
+        "\nアーキテクチャ図",
+        "\n1. Azure VMの構築",
+        "\n2. Raspberry PiのFastAPIを起動",
+        "\n3. SSH接続：Raspberry Pi　→　Azure VM",
+        "\n4. Raspberry Pi から Azure VM に SSH リバーストンネルを設定",
+        "\n5. Azure VM に Nginx をインストールしリバースプロキシを設定",
+        "\n6. インターネットから API にアクセス\n"
+      ],
+      "stockers_count": 0,
+      "updated_at": "2025-03-01T16:21:20"
+    },
+    {
+      "title": "データに関する基本用語",
+      "url": "https://qiita.com/ballemech/items/0294251e06fbda444d2a",
+      "tags": [
+        "Data",
+        "構造化データ",
+        "非構造化データ",
+        "半構造化データ"
+      ],
+      "headlines": [
+        "\nはじめに",
+        "\n内容",
+        "\nデータとは",
+        "\nデータの種類",
+        "\nデータベース（DB）"
+      ],
+      "stockers_count": 0,
+      "updated_at": "2024-11-04T20:37:15"
+    },
+    {
+      "title": "【karabiner-elements】新しいワイヤレスキーボードにしたらかなと英数の変換ができなくなった",
+      "url": "https://qiita.com/ballemech/items/4656230ff167b93ef960",
+      "tags": [
+        "Mac",
+        "Karabiner-Elements",
+        "かな変換",
+        "ワイヤレスキーボード"
+      ],
+      "headlines": [],
+      "stockers_count": 0,
+      "updated_at": "2024-10-12T15:16:31"
+    },
+    {
+      "title": "オフラインITカンファレンス初参加感想",
+      "url": "https://qiita.com/ballemech/items/2e62aa20d658e26cc2ab",
+      "tags": [
+        "勉強会",
+        "勉強会メモ",
+        "カンファレンス",
+        "カンファレンス・勉強会メモ",
+        "XP祭り2024"
+      ],
+      "headlines": [
+        "\n自分の知識領域の狭さに気づける",
+        "\n社外の方と話ができる",
+        "\n反省",
+        "\n最後に"
+      ],
+      "stockers_count": 0,
+      "updated_at": "2025-04-15T21:30:54"
+    },
+    {
+      "title": "【テスト駆動開発】t-wadaさんのLiveコーディングから学んだこと",
+      "url": "https://qiita.com/ballemech/items/22ae599d5e6ac388d776",
+      "tags": [
+        "TDD",
+        "テスト駆動開発",
+        "t-wada"
+      ],
+      "headlines": [
+        "\n動作するコードを書く",
+        "\nきれいなコードを書く",
+        "\n一周した後",
+        "\nテストコードの構成は、準備、実行、検証",
+        "\nテストコードは検証(assertEquals)から書くのがおすすめ",
+        "\n「作る」よりも先に「使う」",
+        "\nOne assertion per test",
+        "\n不要なテストはそのテストを書いた本人が消すべきである"
+      ],
+      "stockers_count": 0,
+      "updated_at": "2024-09-23T21:24:29"
+    },
+    {
+      "title": "RSwagを使ったAPI仕様書の自動作成",
+      "url": "https://qiita.com/ballemech/items/bd25e1e182b9b466ed12",
+      "tags": [
+        "Rails",
+        "rswag",
+        "railsAPIモード"
+      ],
+      "headlines": [
+        "\n前置き",
+        "\n手順",
+        "\n実際にできたAPIDoc"
+      ],
+      "stockers_count": 1,
+      "updated_at": "2024-09-16T10:13:58"
+    },
+    {
+      "title": "rswagでAPI仕様書自動生成するときにindexアクションの扱いに困った",
+      "url": "https://qiita.com/ballemech/items/382352fb6901c6d9287b",
+      "tags": [
+        "Ruby",
+        "Rails",
+        "RSpec",
+        "swagger",
+        "rswag"
+      ],
+      "headlines": [],
+      "stockers_count": 0,
+      "updated_at": "2024-08-18T20:50:30"
+    },
+    {
+      "title": "【JavaEE】CDIのDI",
+      "url": "https://qiita.com/ballemech/items/058b76e647024836babe",
+      "tags": [
+        "Java",
+        "JavaEE",
+        "CDI"
+      ],
+      "headlines": [
+        "\nまえがき",
+        "\nCDIとは",
+        "\n依存性注入"
+      ],
+      "stockers_count": 0,
+      "updated_at": "2024-09-11T10:03:08"
+    },
+    {
+      "title": "AttributeError: partially initialized module 'cv2' has no attribute 'dnn'",
+      "url": "https://qiita.com/ballemech/items/e32d8db300bdc788755a",
+      "tags": [
+        "OpenCV",
+        "mmaction2",
+        "動作検出"
+      ],
+      "headlines": [],
+      "stockers_count": 0,
+      "updated_at": "2023-12-07T17:39:48"
+    },
+    {
+      "title": "Quick LaTeX for Obsidian でLaTexを高速記述",
+      "url": "https://qiita.com/ballemech/items/f71a0d832ff14b3c5518",
+      "tags": [
+        "LaTeX",
+        "Obsidian"
+      ],
+      "headlines": [
+        "\n自動補完",
+        "\n選択した式をLaTeX記法に",
+        "\n自動分数",
+        "\n速記法",
+        "\n参考"
+      ],
+      "stockers_count": 3,
+      "updated_at": "2025-11-02T13:25:47"
+    },
+    {
+      "title": "【M1 Mac】anacondaにtensorflowをinstall・importできない(Could not find a version that satisfies the requirement)",
+      "url": "https://qiita.com/ballemech/items/ce1494fc3eda50dcc109",
+      "tags": [
+        "Anaconda",
+        "TensorFlow"
+      ],
+      "headlines": [
+        "\n結論",
+        "\n参考記事"
+      ],
+      "stockers_count": 0,
+      "updated_at": "2023-05-06T19:57:30"
+    },
+    {
+      "title": "【Webアプリ開発】3ヶ月の長期インターンでの反省点と経験したこと",
+      "url": "https://qiita.com/ballemech/items/4078325214f9695c6c6c",
+      "tags": [
+        "Webアプリケーション",
+        "rails-api",
+        "インターン",
+        "React",
+        "新人エンジニア"
+      ],
+      "headlines": [
+        "\n開発環境",
+        "\n終わりに"
+      ],
+      "stockers_count": 0,
+      "updated_at": "2023-01-04T07:47:09"
+    },
+    {
+      "title": "prettierの\"singleQuote\": trueが効かなかった時の話",
+      "url": "https://qiita.com/ballemech/items/091b56849543b27e86aa",
+      "tags": [
+        "ESLint",
+        "prettier"
+      ],
+      "headlines": [
+        "\nはじめに",
+        "\n結論"
+      ],
+      "stockers_count": 0,
+      "updated_at": "2022-12-14T15:51:45"
+    },
+    {
+      "title": "【Rails API】hash値で検索をかけたい場合",
+      "url": "https://qiita.com/ballemech/items/785b747638859169336a",
+      "tags": [
+        "Ruby",
+        "Rails",
+        "hash",
+        "railsAPIモード"
+      ],
+      "headlines": [
+        "\nはじめに",
+        "\n実装"
+      ],
+      "stockers_count": 0,
+      "updated_at": "2022-12-02T14:52:35"
+    },
+    {
+      "title": "【rails】rails g controllerコマンドでapi/以下にファイルを生成するコマンド",
+      "url": "https://qiita.com/ballemech/items/ea10e90a60973bce8064",
+      "tags": [
+        "Ruby",
+        "Rails7"
+      ],
+      "headlines": [
+        "\nはじめに",
+        "\n環境",
+        "\nコマンド"
+      ],
+      "stockers_count": 0,
+      "updated_at": "2022-12-02T12:55:29"
+    },
+    {
+      "title": "includeしてるのにN+1問題が発生した理由",
+      "url": "https://qiita.com/ballemech/items/93196860bcf0ce78df96",
+      "tags": [
+        "Ruby",
+        "Rails",
+        "accepts_nested_attributes_for",
+        "n+1問題",
+        "railsAPIモード"
+      ],
+      "headlines": [
+        "\n解決策"
+      ],
+      "stockers_count": 0,
+      "updated_at": "2022-12-02T13:31:15"
+    },
+    {
+      "title": "【Rails】accepts_nested_attributes_forを使って子モデルも保存",
+      "url": "https://qiita.com/ballemech/items/0ef6f4fb241ce01bce86",
+      "tags": [
+        "Ruby",
+        "Rails",
+        "accepts_nested_attributes_for"
+      ],
+      "headlines": [
+        "\nまえがき",
+        "\naccepts_nested_attributes_forを使ってみる"
+      ],
+      "stockers_count": 0,
+      "updated_at": "2022-11-24T18:24:36"
+    },
+    {
+      "title": "【React】useEffectを使って外部からデータをfetch",
+      "url": "https://qiita.com/ballemech/items/1a1cd8937a1510402047",
+      "tags": [
+        "React",
+        "useEffect",
+        "DogAPI"
+      ],
+      "headlines": [
+        "\n前提",
+        "\nuseEffectって何がいいの？",
+        "\n実際に使ってみる"
+      ],
+      "stockers_count": 4,
+      "updated_at": "2022-11-12T12:32:28"
+    },
+    {
+      "title": "Twitter API で特定のユーザーのツイートを取得する（Python）",
+      "url": "https://qiita.com/ballemech/items/2631094e238f0029b6fa",
+      "tags": [
+        "Python",
+        "Twitter",
+        "API",
+        "tweepy"
+      ],
+      "headlines": [],
+      "stockers_count": 7,
+      "updated_at": "2022-08-29T11:12:38"
+    }
+  ],
+  "zenn_articles": [
+    {
+      "title": "レイクハウスアーキテクチャとは（社内勉強会での発表資料から作成）",
+      "url": "https://zenn.dev/a2c_6201/articles/4d0a51bc4d692c",
+      "tags": [],
+      "posted_at": "2025-10-18T19:09:41"
+    }
+  ],
+  "blog_articles": [],
+  "note_articles": [],
+  "hatena_articles": [],
+  "speaker_deck_slides": [],
+  "github_repositories": [
+    {
+      "id": 1035311874,
+      "title": "balle-mech/portfolio",
+      "url": "https://github.com/balle-mech/portfolio",
+      "is_oss": false,
+      "is_fork": false,
+      "is_owner": true,
+      "description": "Personal portfolio site for Atsushi Fukunaga (ballemech)",
+      "stargazers_count": 0,
+      "stargazers_url": "https://github.com/balle-mech/portfolio/stargazers",
+      "forks": 0,
+      "contributors_count": 2,
+      "contributors_url": "https://github.com/balle-mech/portfolio/graphs/contributors",
+      "contributions": 93,
+      "contributions_url": "https://github.com/balle-mech/portfolio/commits?author=balle-mech",
+      "language": "CSS",
+      "languages": [
+        {
+          "name": "TypeScript",
+          "bytes": 23759
+        },
+        {
+          "name": "Dockerfile",
+          "bytes": 90
+        },
+        {
+          "name": "CSS",
+          "bytes": 30285
+        },
+        {
+          "name": "HTML",
+          "bytes": 993
+        }
+      ]
+    },
+    {
+      "id": 645213513,
+      "title": "balle-mech/Illegal-Dumping-Detection",
+      "url": "https://github.com/balle-mech/Illegal-Dumping-Detection",
+      "is_oss": false,
+      "is_fork": false,
+      "is_owner": true,
+      "description": "不法投棄をraspberry Piのカメラとmmaction2を使って、検知するシステム",
+      "stargazers_count": 0,
+      "stargazers_url": "https://github.com/balle-mech/Illegal-Dumping-Detection/stargazers",
+      "forks": 0,
+      "contributors_count": 1,
+      "contributors_url": "https://github.com/balle-mech/Illegal-Dumping-Detection/graphs/contributors",
+      "contributions": 119,
+      "contributions_url": "https://github.com/balle-mech/Illegal-Dumping-Detection/commits?author=balle-mech",
+      "language": "Jupyter Notebook",
+      "languages": [
+        {
+          "name": "Dockerfile",
+          "bytes": 3109
+        },
+        {
+          "name": "Shell",
+          "bytes": 53342
+        },
+        {
+          "name": "CSS",
+          "bytes": 2222
+        },
+        {
+          "name": "Batchfile",
+          "bytes": 1520
+        },
+        {
+          "name": "Makefile",
+          "bytes": 1268
+        },
+        {
+          "name": "JavaScript",
+          "bytes": 749
+        },
+        {
+          "name": "HTML",
+          "bytes": 1019
+        },
+        {
+          "name": "Jupyter Notebook",
+          "bytes": 16273072
+        },
+        {
+          "name": "Python",
+          "bytes": 3366070
+        }
+      ]
+    },
+    {
+      "id": 1139558679,
+      "title": "balle-mech/data_engineering_handson",
+      "url": "https://github.com/balle-mech/data_engineering_handson",
+      "is_oss": false,
+      "is_fork": true,
+      "is_owner": false,
+      "description": "社内勉強会で開催するハンズオン用プログラム",
+      "stargazers_count": 0,
+      "stargazers_url": "https://github.com/balle-mech/data_engineering_handson/stargazers",
+      "forks": 0,
+      "contributors_count": 2,
+      "contributors_url": "https://github.com/balle-mech/data_engineering_handson/graphs/contributors",
+      "contributions": 65,
+      "contributions_url": "https://github.com/balle-mech/data_engineering_handson/commits?author=balle-mech",
+      "language": "Jupyter Notebook",
+      "languages": [
+        {
+          "name": "Jupyter Notebook",
+          "bytes": 131777
+        },
+        {
+          "name": "Python",
+          "bytes": 35881
+        }
+      ]
+    },
+    {
+      "id": 530973063,
+      "title": "balle-mech/let-Fasttext-learn-tweets",
+      "url": "https://github.com/balle-mech/let-Fasttext-learn-tweets",
+      "is_oss": false,
+      "is_fork": false,
+      "is_owner": true,
+      "description": "ツイートをfastTextに学習させるコード",
+      "stargazers_count": 1,
+      "stargazers_url": "https://github.com/balle-mech/let-Fasttext-learn-tweets/stargazers",
+      "forks": 0,
+      "contributors_count": 1,
+      "contributors_url": "https://github.com/balle-mech/let-Fasttext-learn-tweets/graphs/contributors",
+      "contributions": 62,
+      "contributions_url": "https://github.com/balle-mech/let-Fasttext-learn-tweets/commits?author=balle-mech",
+      "language": "Python",
+      "languages": [
+        {
+          "name": "Python",
+          "bytes": 3063
+        }
+      ]
+    },
+    {
+      "id": 986928665,
+      "title": "c025vbw/Asobiba",
+      "url": "https://github.com/c025vbw/Asobiba",
+      "is_oss": false,
+      "is_fork": false,
+      "is_owner": false,
+      "description": "Abobiba",
+      "stargazers_count": 1,
+      "stargazers_url": "https://github.com/c025vbw/Asobiba/stargazers",
+      "forks": 0,
+      "contributors_count": 1,
+      "contributors_url": "https://github.com/c025vbw/Asobiba/graphs/contributors",
+      "contributions": 37,
+      "contributions_url": "https://github.com/c025vbw/Asobiba/commits?author=balle-mech",
+      "language": "TypeScript",
+      "languages": [
+        {
+          "name": "TypeScript",
+          "bytes": 29060
+        },
+        {
+          "name": "Dockerfile",
+          "bytes": 619
+        },
+        {
+          "name": "HTML",
+          "bytes": 316
+        },
+        {
+          "name": "CSS",
+          "bytes": 275
+        },
+        {
+          "name": "JavaScript",
+          "bytes": 10467
+        },
+        {
+          "name": "Python",
+          "bytes": 343
+        }
+      ]
+    },
+    {
+      "id": 882164411,
+      "title": "balle-mech/hot-bubbles-front",
+      "url": "https://github.com/balle-mech/hot-bubbles-front",
+      "is_oss": false,
+      "is_fork": false,
+      "is_owner": true,
+      "description": "ニュースアプリ",
+      "stargazers_count": 1,
+      "stargazers_url": "https://github.com/balle-mech/hot-bubbles-front/stargazers",
+      "forks": 0,
+      "contributors_count": 2,
+      "contributors_url": "https://github.com/balle-mech/hot-bubbles-front/graphs/contributors",
+      "contributions": 21,
+      "contributions_url": "https://github.com/balle-mech/hot-bubbles-front/commits?author=balle-mech",
+      "language": "CSS",
+      "languages": [
+        {
+          "name": "TypeScript",
+          "bytes": 1076
+        },
+        {
+          "name": "CSS",
+          "bytes": 15291
+        },
+        {
+          "name": "HTML",
+          "bytes": 399
+        },
+        {
+          "name": "Vue",
+          "bytes": 3643
+        },
+        {
+          "name": "JavaScript",
+          "bytes": 666
+        }
+      ]
+    },
+    {
+      "id": 896029538,
+      "title": "balle-mech/deep-learning-from-scratch",
+      "url": "https://github.com/balle-mech/deep-learning-from-scratch",
+      "is_oss": false,
+      "is_fork": false,
+      "is_owner": true,
+      "description": "書籍「ゼロから作るDeep Learning」の学習記録",
+      "stargazers_count": 0,
+      "stargazers_url": "https://github.com/balle-mech/deep-learning-from-scratch/stargazers",
+      "forks": 0,
+      "contributors_count": 1,
+      "contributors_url": "https://github.com/balle-mech/deep-learning-from-scratch/graphs/contributors",
+      "contributions": 40,
+      "contributions_url": "https://github.com/balle-mech/deep-learning-from-scratch/commits?author=balle-mech",
+      "language": "Jupyter Notebook",
+      "languages": [
+        {
+          "name": "Jupyter Notebook",
+          "bytes": 1351323
+        },
+        {
+          "name": "Python",
+          "bytes": 38555
+        }
+      ]
+    },
+    {
+      "id": 793338759,
+      "title": "balle-mech/dotfiles",
+      "url": "https://github.com/balle-mech/dotfiles",
+      "is_oss": false,
+      "is_fork": false,
+      "is_owner": true,
+      "description": "",
+      "stargazers_count": 0,
+      "stargazers_url": "https://github.com/balle-mech/dotfiles/stargazers",
+      "forks": 0,
+      "contributors_count": 1,
+      "contributors_url": "https://github.com/balle-mech/dotfiles/graphs/contributors",
+      "contributions": 31,
+      "contributions_url": "https://github.com/balle-mech/dotfiles/commits?author=balle-mech",
+      "language": "Shell",
+      "languages": [
+        {
+          "name": "Shell",
+          "bytes": 5796
+        }
+      ]
+    },
+    {
+      "id": 849686729,
+      "title": "balle-mech/poc-javaee",
+      "url": "https://github.com/balle-mech/poc-javaee",
+      "is_oss": false,
+      "is_fork": false,
+      "is_owner": true,
+      "description": "JavaEEでのWebアプリ開発におけるTDDとCI構築の技術検証リポジトリ",
+      "stargazers_count": 0,
+      "stargazers_url": "https://github.com/balle-mech/poc-javaee/stargazers",
+      "forks": 0,
+      "contributors_count": 1,
+      "contributors_url": "https://github.com/balle-mech/poc-javaee/graphs/contributors",
+      "contributions": 29,
+      "contributions_url": "https://github.com/balle-mech/poc-javaee/commits?author=balle-mech",
+      "language": "Java",
+      "languages": [
+        {
+          "name": "Java",
+          "bytes": 9938
+        },
+        {
+          "name": "HTML",
+          "bytes": 311
+        }
+      ]
+    },
+    {
+      "id": 977570678,
+      "title": "changon0523/shooting-game-front",
+      "url": "https://github.com/changon0523/shooting-game-front",
+      "is_oss": false,
+      "is_fork": false,
+      "is_owner": false,
+      "description": "This is right nuts",
+      "stargazers_count": 2,
+      "stargazers_url": "https://github.com/changon0523/shooting-game-front/stargazers",
+      "forks": 0,
+      "contributors_count": 3,
+      "contributors_url": "https://github.com/changon0523/shooting-game-front/graphs/contributors",
+      "contributions": 7,
+      "contributions_url": "https://github.com/changon0523/shooting-game-front/commits?author=balle-mech",
+      "language": "JavaScript",
+      "languages": [
+        {
+          "name": "HTML",
+          "bytes": 312
+        },
+        {
+          "name": "CSS",
+          "bytes": 59
+        },
+        {
+          "name": "JavaScript",
+          "bytes": 12360
+        }
+      ]
+    },
+    {
+      "id": 571202644,
+      "title": "balle-mech/Saezuri",
+      "url": "https://github.com/balle-mech/Saezuri",
+      "is_oss": false,
+      "is_fork": false,
+      "is_owner": true,
+      "description": "Reactで作る掲示板アプリ",
+      "stargazers_count": 0,
+      "stargazers_url": "https://github.com/balle-mech/Saezuri/stargazers",
+      "forks": 0,
+      "contributors_count": 1,
+      "contributors_url": "https://github.com/balle-mech/Saezuri/graphs/contributors",
+      "contributions": 26,
+      "contributions_url": "https://github.com/balle-mech/Saezuri/commits?author=balle-mech",
+      "language": "JavaScript",
+      "languages": [
+        {
+          "name": "HTML",
+          "bytes": 1721
+        },
+        {
+          "name": "CSS",
+          "bytes": 930
+        },
+        {
+          "name": "JavaScript",
+          "bytes": 9213
+        }
+      ]
+    },
+    {
+      "id": 605350781,
+      "title": "balle-mech/doodle-code",
+      "url": "https://github.com/balle-mech/doodle-code",
+      "is_oss": false,
+      "is_fork": false,
+      "is_owner": true,
+      "description": "",
+      "stargazers_count": 0,
+      "stargazers_url": "https://github.com/balle-mech/doodle-code/stargazers",
+      "forks": 0,
+      "contributors_count": 1,
+      "contributors_url": "https://github.com/balle-mech/doodle-code/graphs/contributors",
+      "contributions": 25,
+      "contributions_url": "https://github.com/balle-mech/doodle-code/commits?author=balle-mech",
+      "language": "Jupyter Notebook",
+      "languages": [
+        {
+          "name": "TypeScript",
+          "bytes": 565
+        },
+        {
+          "name": "Java",
+          "bytes": 2224
+        },
+        {
+          "name": "CSS",
+          "bytes": 3661
+        },
+        {
+          "name": "Vue",
+          "bytes": 5111
+        },
+        {
+          "name": "JavaScript",
+          "bytes": 1779
+        },
+        {
+          "name": "HTML",
+          "bytes": 7267
+        },
+        {
+          "name": "Jupyter Notebook",
+          "bytes": 11132
+        },
+        {
+          "name": "Python",
+          "bytes": 296
+        }
+      ]
+    },
+    {
+      "id": 941447058,
+      "title": "balle-mech/raspi-temp-humidity-pipeline",
+      "url": "https://github.com/balle-mech/raspi-temp-humidity-pipeline",
+      "is_oss": false,
+      "is_fork": false,
+      "is_owner": true,
+      "description": "",
+      "stargazers_count": 0,
+      "stargazers_url": "https://github.com/balle-mech/raspi-temp-humidity-pipeline/stargazers",
+      "forks": 0,
+      "contributors_count": 1,
+      "contributors_url": "https://github.com/balle-mech/raspi-temp-humidity-pipeline/graphs/contributors",
+      "contributions": 24,
+      "contributions_url": "https://github.com/balle-mech/raspi-temp-humidity-pipeline/commits?author=balle-mech",
+      "language": "Jupyter Notebook",
+      "languages": [
+        {
+          "name": "Jupyter Notebook",
+          "bytes": 30217
+        },
+        {
+          "name": "Python",
+          "bytes": 4171
+        }
+      ]
+    },
+    {
+      "id": 1175834585,
+      "title": "balle-mech/data-engineering-handson-sdp",
+      "url": "https://github.com/balle-mech/data-engineering-handson-sdp",
+      "is_oss": false,
+      "is_fork": false,
+      "is_owner": true,
+      "description": "社内勉強会で開催するDatabricks SDPハンズオン用プログラム",
+      "stargazers_count": 0,
+      "stargazers_url": "https://github.com/balle-mech/data-engineering-handson-sdp/stargazers",
+      "forks": 0,
+      "contributors_count": 1,
+      "contributors_url": "https://github.com/balle-mech/data-engineering-handson-sdp/graphs/contributors",
+      "contributions": 21,
+      "contributions_url": "https://github.com/balle-mech/data-engineering-handson-sdp/commits?author=balle-mech",
+      "language": "",
+      "languages": []
+    },
+    {
+      "id": 1092208094,
+      "title": "balle-mech/databricks-rag",
+      "url": "https://github.com/balle-mech/databricks-rag",
+      "is_oss": false,
+      "is_fork": false,
+      "is_owner": true,
+      "description": "",
+      "stargazers_count": 0,
+      "stargazers_url": "https://github.com/balle-mech/databricks-rag/stargazers",
+      "forks": 0,
+      "contributors_count": 1,
+      "contributors_url": "https://github.com/balle-mech/databricks-rag/graphs/contributors",
+      "contributions": 15,
+      "contributions_url": "https://github.com/balle-mech/databricks-rag/commits?author=balle-mech",
+      "language": "Jupyter Notebook",
+      "languages": [
+        {
+          "name": "Jupyter Notebook",
+          "bytes": 55417
+        },
+        {
+          "name": "Python",
+          "bytes": 2897
+        }
+      ]
+    },
+    {
+      "id": 736540753,
+      "title": "balle-mech/robot-control-engineering",
+      "url": "https://github.com/balle-mech/robot-control-engineering",
+      "is_oss": false,
+      "is_fork": false,
+      "is_owner": true,
+      "description": "ロボット工学の講義課題",
+      "stargazers_count": 0,
+      "stargazers_url": "https://github.com/balle-mech/robot-control-engineering/stargazers",
+      "forks": 0,
+      "contributors_count": 1,
+      "contributors_url": "https://github.com/balle-mech/robot-control-engineering/graphs/contributors",
+      "contributions": 14,
+      "contributions_url": "https://github.com/balle-mech/robot-control-engineering/commits?author=balle-mech",
+      "language": "C++",
+      "languages": [
+        {
+          "name": "C++",
+          "bytes": 33664
+        }
+      ]
+    },
+    {
+      "id": 898185572,
+      "title": "balle-mech/Quantum_programming",
+      "url": "https://github.com/balle-mech/Quantum_programming",
+      "is_oss": false,
+      "is_fork": true,
+      "is_owner": false,
+      "description": "Basic-level  Qiskit quantum programming courseware ",
+      "stargazers_count": 0,
+      "stargazers_url": "https://github.com/balle-mech/Quantum_programming/stargazers",
+      "forks": 0,
+      "contributors_count": 2,
+      "contributors_url": "https://github.com/balle-mech/Quantum_programming/graphs/contributors",
+      "contributions": 7,
+      "contributions_url": "https://github.com/balle-mech/Quantum_programming/commits?author=balle-mech",
+      "language": "Jupyter Notebook",
+      "languages": [
+        {
+          "name": "Jupyter Notebook",
+          "bytes": 1738428
+        }
+      ]
+    },
+    {
+      "id": 1201044710,
+      "title": "balle-mech/news-digest",
+      "url": "https://github.com/balle-mech/news-digest",
+      "is_oss": false,
+      "is_fork": false,
+      "is_owner": true,
+      "description": "Claude Codeによる日次ニュースダイジェスト",
+      "stargazers_count": 0,
+      "stargazers_url": "https://github.com/balle-mech/news-digest/stargazers",
+      "forks": 0,
+      "contributors_count": 2,
+      "contributors_url": "https://github.com/balle-mech/news-digest/graphs/contributors",
+      "contributions": 5,
+      "contributions_url": "https://github.com/balle-mech/news-digest/commits?author=balle-mech",
+      "language": "Python",
+      "languages": [
+        {
+          "name": "CSS",
+          "bytes": 1604
+        },
+        {
+          "name": "Python",
+          "bytes": 3044
+        }
+      ]
+    },
+    {
+      "id": 695836896,
+      "title": "balle-mech/if_then_card",
+      "url": "https://github.com/balle-mech/if_then_card",
+      "is_oss": false,
+      "is_fork": false,
+      "is_owner": true,
+      "description": "習慣改善アプリを作りながらFlutterを学んでみる",
+      "stargazers_count": 0,
+      "stargazers_url": "https://github.com/balle-mech/if_then_card/stargazers",
+      "forks": 0,
+      "contributors_count": 1,
+      "contributors_url": "https://github.com/balle-mech/if_then_card/graphs/contributors",
+      "contributions": 8,
+      "contributions_url": "https://github.com/balle-mech/if_then_card/commits?author=balle-mech",
+      "language": "C++",
+      "languages": [
+        {
+          "name": "C++",
+          "bytes": 23058
+        },
+        {
+          "name": "C",
+          "bytes": 1425
+        },
+        {
+          "name": "CMake",
+          "bytes": 18762
+        },
+        {
+          "name": "JavaScript",
+          "bytes": 9242
+        },
+        {
+          "name": "Objective-C",
+          "bytes": 38
+        },
+        {
+          "name": "HTML",
+          "bytes": 1851
+        },
+        {
+          "name": "Swift",
+          "bytes": 1728
+        },
+        {
+          "name": "Dart",
+          "bytes": 2462
+        },
+        {
+          "name": "Kotlin",
+          "bytes": 129
+        }
+      ]
+    },
+    {
+      "id": 903731202,
+      "title": "balle-mech/hot-bubbles-api",
+      "url": "https://github.com/balle-mech/hot-bubbles-api",
+      "is_oss": false,
+      "is_fork": false,
+      "is_owner": true,
+      "description": "",
+      "stargazers_count": 0,
+      "stargazers_url": "https://github.com/balle-mech/hot-bubbles-api/stargazers",
+      "forks": 0,
+      "contributors_count": 1,
+      "contributors_url": "https://github.com/balle-mech/hot-bubbles-api/graphs/contributors",
+      "contributions": 6,
+      "contributions_url": "https://github.com/balle-mech/hot-bubbles-api/commits?author=balle-mech",
+      "language": "",
+      "languages": []
+    },
+    {
+      "id": 470945288,
+      "title": "balle-mech/iris_class",
+      "url": "https://github.com/balle-mech/iris_class",
+      "is_oss": false,
+      "is_fork": false,
+      "is_owner": true,
+      "description": "アヤメの品種分類を行うデスクトップアプリ",
+      "stargazers_count": 0,
+      "stargazers_url": "https://github.com/balle-mech/iris_class/stargazers",
+      "forks": 0,
+      "contributors_count": 1,
+      "contributors_url": "https://github.com/balle-mech/iris_class/graphs/contributors",
+      "contributions": 5,
+      "contributions_url": "https://github.com/balle-mech/iris_class/commits?author=balle-mech",
+      "language": "Python",
+      "languages": [
+        {
+          "name": "Python",
+          "bytes": 3097
+        }
+      ]
+    },
+    {
+      "id": 685877449,
+      "title": "balle-mech/typescript-tutorial",
+      "url": "https://github.com/balle-mech/typescript-tutorial",
+      "is_oss": false,
+      "is_fork": false,
+      "is_owner": true,
+      "description": "サイト サバイバルTypeScriptで学習",
+      "stargazers_count": 0,
+      "stargazers_url": "https://github.com/balle-mech/typescript-tutorial/stargazers",
+      "forks": 0,
+      "contributors_count": 1,
+      "contributors_url": "https://github.com/balle-mech/typescript-tutorial/graphs/contributors",
+      "contributions": 3,
+      "contributions_url": "https://github.com/balle-mech/typescript-tutorial/commits?author=balle-mech",
+      "language": "TypeScript",
+      "languages": [
+        {
+          "name": "TypeScript",
+          "bytes": 84
+        },
+        {
+          "name": "JavaScript",
+          "bytes": 77
+        }
+      ]
+    },
+    {
+      "id": 1061059399,
+      "title": "balle-mech/resume",
+      "url": "https://github.com/balle-mech/resume",
+      "is_oss": false,
+      "is_fork": false,
+      "is_owner": true,
+      "description": "",
+      "stargazers_count": 0,
+      "stargazers_url": "https://github.com/balle-mech/resume/stargazers",
+      "forks": 0,
+      "contributors_count": 1,
+      "contributors_url": "https://github.com/balle-mech/resume/graphs/contributors",
+      "contributions": 2,
+      "contributions_url": "https://github.com/balle-mech/resume/commits?author=balle-mech",
+      "language": "",
+      "languages": []
+    },
+    {
+      "id": 802482034,
+      "title": "balle-mech/planning-poker",
+      "url": "https://github.com/balle-mech/planning-poker",
+      "is_oss": false,
+      "is_fork": false,
+      "is_owner": true,
+      "description": "",
+      "stargazers_count": 0,
+      "stargazers_url": "https://github.com/balle-mech/planning-poker/stargazers",
+      "forks": 0,
+      "contributors_count": 1,
+      "contributors_url": "https://github.com/balle-mech/planning-poker/graphs/contributors",
+      "contributions": 1,
+      "contributions_url": "https://github.com/balle-mech/planning-poker/commits?author=balle-mech",
+      "language": "Vue",
+      "languages": [
+        {
+          "name": "Dockerfile",
+          "bytes": 205
+        },
+        {
+          "name": "CSS",
+          "bytes": 1544
+        },
+        {
+          "name": "HTML",
+          "bytes": 367
+        },
+        {
+          "name": "Vue",
+          "bytes": 32409
+        },
+        {
+          "name": "Python",
+          "bytes": 12732
+        },
+        {
+          "name": "JavaScript",
+          "bytes": 7363
+        }
+      ]
+    },
+    {
+      "id": 837612532,
+      "title": "balle-mech/train-nari-front",
+      "url": "https://github.com/balle-mech/train-nari-front",
+      "is_oss": false,
+      "is_fork": false,
+      "is_owner": true,
+      "description": "筋トレ記録アプリのフロントサイド",
+      "stargazers_count": 0,
+      "stargazers_url": "https://github.com/balle-mech/train-nari-front/stargazers",
+      "forks": 0,
+      "contributors_count": 1,
+      "contributors_url": "https://github.com/balle-mech/train-nari-front/graphs/contributors",
+      "contributions": 1,
+      "contributions_url": "https://github.com/balle-mech/train-nari-front/commits?author=balle-mech",
+      "language": "CSS",
+      "languages": [
+        {
+          "name": "CSS",
+          "bytes": 1102
+        },
+        {
+          "name": "HTML",
+          "bytes": 998
+        }
+      ]
+    }
+  ],
+  "teratail_replies": [],
+  "events": [
+    {
+      "title": "ログ理解が変わると、開発の質が変わる ─ ─今あらためて押さえたい基礎と実践",
+      "url": "https://findy.connpass.com/event/390043/",
+      "status": 1,
+      "date": "2026-05-19T00:00:00",
+      "is_presenter": false,
+      "is_organizer": false
+    },
+    {
+      "title": "第3回 Youは何しにDatabricksへ！？",
+      "url": "https://redbrick.connpass.com/event/386532/",
+      "status": 2,
+      "date": "2026-04-09T00:00:00",
+      "is_presenter": false,
+      "is_organizer": false
+    },
+    {
+      "title": "Codexどう使ってる？期待通りにいかない時の向き合い方と工夫",
+      "url": "https://findy.connpass.com/event/384314/",
+      "status": 1,
+      "date": "2026-03-06T00:00:00",
+      "is_presenter": false,
+      "is_organizer": false
+    },
+    {
+      "title": "CTO兼採用担当が話す、カジュアル面談の裏側",
+      "url": "https://lapras.connpass.com/event/381951/",
+      "status": 1,
+      "date": "2026-02-03T00:00:00",
+      "is_presenter": false,
+      "is_organizer": false
+    },
+    {
+      "title": "ぼっちのための懇親会対策会議",
+      "url": "https://lapras.connpass.com/event/374906/",
+      "status": 2,
+      "date": "2025-11-27T00:00:00",
+      "is_presenter": false,
+      "is_organizer": false
+    },
+    {
+      "title": "Databricks無料版で始めるMLflowもくもく会",
+      "url": "https://jedai.connpass.com/event/374212/",
+      "status": 1,
+      "date": "2025-11-18T00:00:00",
+      "is_presenter": false,
+      "is_organizer": false
+    },
+    {
+      "title": "電子工作が生成AIでより身近になった！「Extreme Feedback Device入門」",
+      "url": "https://xpjug.connpass.com/event/367939/",
+      "status": 1,
+      "date": "2025-10-04T00:00:00",
+      "is_presenter": false,
+      "is_organizer": false
+    },
+    {
+      "title": "XP祭り2025 現地参加（ワークショップ参加含む）＆スクラム祭り神奈川トラックサテライト",
+      "url": "https://xpjug.connpass.com/event/366382/",
+      "status": 1,
+      "date": "2025-10-04T00:00:00",
+      "is_presenter": false,
+      "is_organizer": false
+    },
+    {
+      "title": "【レジュメブラッシュアップ講座】実力が伝わる経歴書へ一緒にリライト！songmuさん特別講演",
+      "url": "https://lapras.connpass.com/event/366686/",
+      "status": 1,
+      "date": "2025-09-24T00:00:00",
+      "is_presenter": false,
+      "is_organizer": false
+    },
+    {
+      "title": "『TypeScriptのスキーマ駆動開発』実践事例 LT",
+      "url": "https://findy.connpass.com/event/368365/",
+      "status": 1,
+      "date": "2025-09-22T00:00:00",
+      "is_presenter": false,
+      "is_organizer": false
+    },
+    {
+      "title": "Databricks無料版で始めるSpark入門もくもく会",
+      "url": "https://jedai.connpass.com/event/365277/",
+      "status": 1,
+      "date": "2025-09-16T00:00:00",
+      "is_presenter": false,
+      "is_organizer": false
+    },
+    {
+      "title": "JEDAI Meetup! エネルギー業界のAI・データ活用事例 (ハイブリッド開催)",
+      "url": "https://jedai.connpass.com/event/364657/",
+      "status": 1,
+      "date": "2025-09-02T00:00:00",
+      "is_presenter": false,
+      "is_organizer": false
+    },
+    {
+      "title": "Databricks Free Editionもくもく会",
+      "url": "https://jedai.connpass.com/event/359280/",
+      "status": 1,
+      "date": "2025-06-25T00:00:00",
+      "is_presenter": false,
+      "is_organizer": false
+    },
+    {
+      "title": "JEDAI Meetup! Databricks Apps特集 (ハイブリッド開催)",
+      "url": "https://jedai.connpass.com/event/349260/",
+      "status": 1,
+      "date": "2025-05-14T00:00:00",
+      "is_presenter": false,
+      "is_organizer": false
+    },
+    {
+      "title": "【技術選定を突き詰める】Online Conferenc​​e 2025",
+      "url": "https://findy.connpass.com/event/349580/",
+      "status": 1,
+      "date": "2025-05-14T00:00:00",
+      "is_presenter": false,
+      "is_organizer": false
+    },
+    {
+      "title": "【LAPRASユーザー限定イベント】アウトプットしよう「LAPRASもくもく会」3月",
+      "url": "https://lapras.connpass.com/event/346352/",
+      "status": 1,
+      "date": "2025-03-19T00:00:00",
+      "is_presenter": false,
+      "is_organizer": false
+    },
+    {
+      "title": "Databricksと学ぶDeepSeek！ 〜これからのLLMに備えよ！〜",
+      "url": "https://redbrick.connpass.com/event/345123/",
+      "status": 1,
+      "date": "2025-03-04T00:00:00",
+      "is_presenter": false,
+      "is_organizer": false
+    },
+    {
+      "title": "レイクハウスって結局何なのっていいました？じゃあ真のレイクハウスをみせてやりますよ！",
+      "url": "https://redbrick.connpass.com/event/341139/",
+      "status": 1,
+      "date": "2025-01-27T00:00:00",
+      "is_presenter": false,
+      "is_organizer": false
+    },
+    {
+      "title": "datatech-jp Casual Talks #6",
+      "url": "https://datatech-jp.connpass.com/event/337374/",
+      "status": 1,
+      "date": "2025-01-20T00:00:00",
+      "is_presenter": false,
+      "is_organizer": false
+    },
+    {
+      "title": "【天才！Z世代に聞く！】若手エンジニアのキャリア形成とは",
+      "url": "https://connpass.com/event/339840/",
+      "status": 1,
+      "date": "2024-12-26T00:00:00",
+      "is_presenter": false,
+      "is_organizer": false
+    },
+    {
+      "title": "夜もく会　12/25(水)",
+      "url": "https://yoru-moku.connpass.com/event/340923/",
+      "status": 1,
+      "date": "2024-12-25T00:00:00",
+      "is_presenter": false,
+      "is_organizer": false
+    },
+    {
+      "title": "JEDAI in Osaka 2024 (ハイブリッド開催)",
+      "url": "https://jedai.connpass.com/event/329313/",
+      "status": 1,
+      "date": "2024-11-01T00:00:00",
+      "is_presenter": false,
+      "is_organizer": false
+    },
+    {
+      "title": "XP祭り2024 現地ワークショップ第二部",
+      "url": "https://xpjug.connpass.com/event/327664/",
+      "status": 1,
+      "date": "2024-09-28T00:00:00",
+      "is_presenter": false,
+      "is_organizer": false
+    },
+    {
+      "title": "XP祭り2024 参加＆LT募集！！",
+      "url": "https://xpjug.connpass.com/event/326033/",
+      "status": 1,
+      "date": "2024-09-28T00:00:00",
+      "is_presenter": false,
+      "is_organizer": false
+    },
+    {
+      "title": "Tech BASE Okinawa 2023",
+      "url": "https://codebase.connpass.com/event/285901/",
+      "status": 1,
+      "date": "2023-09-23T00:00:00",
+      "is_presenter": false,
+      "is_organizer": false
+    },
+    {
+      "title": "もくもく勉強会in那覇市(1/31開催)",
+      "url": "https://abridgeokinawa.connpass.com/event/271379/",
+      "status": 2,
+      "date": "2023-01-31T00:00:00",
+      "is_presenter": false,
+      "is_organizer": false
+    },
+    {
+      "title": "IT系&誰でも参加OK！もくもく会_朝活_1/16(月)",
+      "url": "https://morimori.connpass.com/event/271591/",
+      "status": 1,
+      "date": "2023-01-16T00:00:00",
+      "is_presenter": false,
+      "is_organizer": false
+    },
+    {
+      "title": "IT系&誰でも参加OK！もくもく会_朝活_1/15(日)",
+      "url": "https://morimori.connpass.com/event/271532/",
+      "status": 1,
+      "date": "2023-01-15T00:00:00",
+      "is_presenter": false,
+      "is_organizer": false
+    }
+  ],
+  "activities": [
+    {
+      "title": "ログ理解が変わると、開発の質が変わる ─ ─今あらためて押さえたい基礎と実践",
+      "url": "https://findy.connpass.com/event/390043/",
+      "date": "2026-05-19T00:00:00",
+      "type": "connpass"
+    },
+    {
+      "title": "balle-mech/hot-bubbles-front",
+      "url": "https://github.com/balle-mech/hot-bubbles-front/pulls?q=is:pr+author:balle-mech",
+      "date": "2026-04-29T00:00:00",
+      "type": "github_pr"
+    },
+    {
+      "title": "第3回 Youは何しにDatabricksへ！？",
+      "url": "https://redbrick.connpass.com/event/386532/",
+      "date": "2026-04-09T00:00:00",
+      "type": "connpass"
+    },
+    {
+      "title": "balle-mech/news-digest",
+      "url": "https://github.com/balle-mech/news-digest",
+      "date": "2026-04-04T15:11:18",
+      "type": "github"
+    },
+    {
+      "title": "balle-mech/portfolio",
+      "url": "https://github.com/balle-mech/portfolio/pulls?q=is:pr+author:balle-mech",
+      "date": "2026-04-01T00:00:00",
+      "type": "github_pr"
+    },
+    {
+      "title": "balle-mech/portfolio",
+      "url": "https://github.com/balle-mech/portfolio/pulls?q=is:pr+author:balle-mech",
+      "date": "2026-03-31T00:00:00",
+      "type": "github_pr"
+    },
+    {
+      "title": "balle-mech/hot-bubbles-front",
+      "url": "https://github.com/balle-mech/hot-bubbles-front/pulls?q=is:pr+author:balle-mech",
+      "date": "2026-03-30T00:00:00",
+      "type": "github_pr"
+    },
+    {
+      "title": "balle-mech/portfolio",
+      "url": "https://github.com/balle-mech/portfolio/pulls?q=is:pr+author:balle-mech",
+      "date": "2026-03-29T00:00:00",
+      "type": "github_pr"
+    },
+    {
+      "title": "balle-mech/data-engineering-handson-sdp",
+      "url": "https://github.com/balle-mech/data-engineering-handson-sdp",
+      "date": "2026-03-08T17:33:01",
+      "type": "github"
+    },
+    {
+      "title": "Codexどう使ってる？期待通りにいかない時の向き合い方と工夫",
+      "url": "https://findy.connpass.com/event/384314/",
+      "date": "2026-03-06T00:00:00",
+      "type": "connpass"
+    },
+    {
+      "title": "CTO兼採用担当が話す、カジュアル面談の裏側",
+      "url": "https://lapras.connpass.com/event/381951/",
+      "date": "2026-02-03T00:00:00",
+      "type": "connpass"
+    },
+    {
+      "title": "balle-mech/data_engineering_handson",
+      "url": "https://github.com/balle-mech/data_engineering_handson",
+      "date": "2026-01-22T14:41:36",
+      "type": "github"
+    },
+    {
+      "title": "Databricks Data Engineer Associateの学習内容まとめ",
+      "url": "https://qiita.com/ballemech/items/c73983dd87cdc415a03c",
+      "date": "2026-01-12T16:09:59",
+      "type": "qiita"
+    },
+    {
+      "title": "ぼっちのための懇親会対策会議",
+      "url": "https://lapras.connpass.com/event/374906/",
+      "date": "2025-11-27T00:00:00",
+      "type": "connpass"
+    },
+    {
+      "title": "Databricks無料版で始めるMLflowもくもく会",
+      "url": "https://jedai.connpass.com/event/374212/",
+      "date": "2025-11-18T00:00:00",
+      "type": "connpass"
+    },
+    {
+      "title": "balle-mech/databricks-rag",
+      "url": "https://github.com/balle-mech/databricks-rag",
+      "date": "2025-11-08T16:36:34",
+      "type": "github"
+    },
+    {
+      "title": "Delta Live Tablesとは？宣言型とは？",
+      "url": "https://qiita.com/ballemech/items/ac980ab22f6cd681b0c2",
+      "date": "2025-11-08T12:36:38",
+      "type": "qiita"
+    },
+    {
+      "title": "MacBookでSoftbank AirのWi-Fiを使うと特定のサイトに繋がらない問題",
+      "url": "https://qiita.com/ballemech/items/02699d77d7532e5950ac",
+      "date": "2025-11-08T12:09:57",
+      "type": "qiita"
+    },
+    {
+      "title": "レイクハウスアーキテクチャとは（社内勉強会での発表資料から作成）",
+      "url": "https://zenn.dev/a2c_6201/articles/4d0a51bc4d692c",
+      "date": "2025-10-18T19:09:41",
+      "type": "zenn"
+    },
+    {
+      "title": "レイクハウスアーキテクチャとは（社内勉強会での発表内容から作成）",
+      "url": "https://qiita.com/ballemech/items/5c75ad9909be248def3c",
+      "date": "2025-10-18T18:44:48",
+      "type": "qiita"
+    },
+    {
+      "title": "c025vbw/Asobiba",
+      "url": "https://github.com/c025vbw/Asobiba/pulls?q=is:pr+author:balle-mech",
+      "date": "2025-10-07T00:00:00",
+      "type": "github_pr"
+    },
+    {
+      "title": "電子工作が生成AIでより身近になった！「Extreme Feedback Device入門」",
+      "url": "https://xpjug.connpass.com/event/367939/",
+      "date": "2025-10-04T00:00:00",
+      "type": "connpass"
+    },
+    {
+      "title": "XP祭り2025 現地参加（ワークショップ参加含む）＆スクラム祭り神奈川トラックサテライト",
+      "url": "https://xpjug.connpass.com/event/366382/",
+      "date": "2025-10-04T00:00:00",
+      "type": "connpass"
+    },
+    {
+      "title": "【レジュメブラッシュアップ講座】実力が伝わる経歴書へ一緒にリライト！songmuさん特別講演",
+      "url": "https://lapras.connpass.com/event/366686/",
+      "date": "2025-09-24T00:00:00",
+      "type": "connpass"
+    },
+    {
+      "title": "『TypeScriptのスキーマ駆動開発』実践事例 LT",
+      "url": "https://findy.connpass.com/event/368365/",
+      "date": "2025-09-22T00:00:00",
+      "type": "connpass"
+    },
+    {
+      "title": "balle-mech/resume",
+      "url": "https://github.com/balle-mech/resume",
+      "date": "2025-09-21T15:38:24",
+      "type": "github"
+    },
+    {
+      "title": "Databricks無料版で始めるSpark入門もくもく会",
+      "url": "https://jedai.connpass.com/event/365277/",
+      "date": "2025-09-16T00:00:00",
+      "type": "connpass"
+    },
+    {
+      "title": "balle-mech/portfolio",
+      "url": "https://github.com/balle-mech/portfolio/pulls?q=is:pr+author:balle-mech",
+      "date": "2025-09-13T00:00:00",
+      "type": "github_pr"
+    },
+    {
+      "title": "JEDAI Meetup! エネルギー業界のAI・データ活用事例 (ハイブリッド開催)",
+      "url": "https://jedai.connpass.com/event/364657/",
+      "date": "2025-09-02T00:00:00",
+      "type": "connpass"
+    },
+    {
+      "title": "c025vbw/Asobiba",
+      "url": "https://github.com/c025vbw/Asobiba/pulls?q=is:pr+author:balle-mech",
+      "date": "2025-08-20T00:00:00",
+      "type": "github_pr"
+    },
+    {
+      "title": "balle-mech/portfolio",
+      "url": "https://github.com/balle-mech/portfolio/pulls?q=is:pr+author:balle-mech",
+      "date": "2025-08-20T00:00:00",
+      "type": "github_pr"
+    },
+    {
+      "title": "balle-mech/portfolio",
+      "url": "https://github.com/balle-mech/portfolio/pulls?q=is:pr+author:balle-mech",
+      "date": "2025-08-18T00:00:00",
+      "type": "github_pr"
+    },
+    {
+      "title": "balle-mech/portfolio",
+      "url": "https://github.com/balle-mech/portfolio/pulls?q=is:pr+author:balle-mech",
+      "date": "2025-08-17T00:00:00",
+      "type": "github_pr"
+    },
+    {
+      "title": "balle-mech/portfolio",
+      "url": "https://github.com/balle-mech/portfolio/pulls?q=is:pr+author:balle-mech",
+      "date": "2025-08-16T00:00:00",
+      "type": "github_pr"
+    },
+    {
+      "title": "balle-mech/portfolio",
+      "url": "https://github.com/balle-mech/portfolio",
+      "date": "2025-08-10T14:50:28",
+      "type": "github"
+    },
+    {
+      "title": "c025vbw/Asobiba",
+      "url": "https://github.com/c025vbw/Asobiba/pulls?q=is:pr+author:balle-mech",
+      "date": "2025-08-09T00:00:00",
+      "type": "github_pr"
+    },
+    {
+      "title": "Gemini CLIでObsidianを管理してみた",
+      "url": "https://qiita.com/ballemech/items/dbbdd818f7a7aec2ef2c",
+      "date": "2025-07-26T19:11:05",
+      "type": "qiita"
+    },
+    {
+      "title": "【Prettier】ファイル保存時自動整形機能が機能しない",
+      "url": "https://qiita.com/ballemech/items/80e747f853c53aa1bbb3",
+      "date": "2025-07-13T17:16:53",
+      "type": "qiita"
+    },
+    {
+      "title": "c025vbw/Asobiba",
+      "url": "https://github.com/c025vbw/Asobiba/pulls?q=is:pr+author:balle-mech",
+      "date": "2025-07-13T00:00:00",
+      "type": "github_pr"
+    },
+    {
+      "title": "Databricks Free Editionもくもく会",
+      "url": "https://jedai.connpass.com/event/359280/",
+      "date": "2025-06-25T00:00:00",
+      "type": "connpass"
+    },
+    {
+      "title": "changon0523/shooting-game-front",
+      "url": "https://github.com/changon0523/shooting-game-front/pulls?q=is:pr+author:balle-mech",
+      "date": "2025-05-31T00:00:00",
+      "type": "github_pr"
+    },
+    {
+      "title": "balle-mech/raspi-temp-humidity-pipeline",
+      "url": "https://github.com/balle-mech/raspi-temp-humidity-pipeline/pulls?q=is:pr+author:balle-mech",
+      "date": "2025-05-17T00:00:00",
+      "type": "github_pr"
+    },
+    {
+      "title": "JEDAI Meetup! Databricks Apps特集 (ハイブリッド開催)",
+      "url": "https://jedai.connpass.com/event/349260/",
+      "date": "2025-05-14T00:00:00",
+      "type": "connpass"
+    },
+    {
+      "title": "【技術選定を突き詰める】Online Conferenc​​e 2025",
+      "url": "https://findy.connpass.com/event/349580/",
+      "date": "2025-05-14T00:00:00",
+      "type": "connpass"
+    },
+    {
+      "title": "balle-mech/raspi-temp-humidity-pipeline",
+      "url": "https://github.com/balle-mech/raspi-temp-humidity-pipeline/pulls?q=is:pr+author:balle-mech",
+      "date": "2025-04-27T00:00:00",
+      "type": "github_pr"
+    },
+    {
+      "title": "balle-mech/raspi-temp-humidity-pipeline",
+      "url": "https://github.com/balle-mech/raspi-temp-humidity-pipeline/pulls?q=is:pr+author:balle-mech",
+      "date": "2025-04-23T00:00:00",
+      "type": "github_pr"
+    },
+    {
+      "title": "balle-mech/raspi-temp-humidity-pipeline",
+      "url": "https://github.com/balle-mech/raspi-temp-humidity-pipeline/pulls?q=is:pr+author:balle-mech",
+      "date": "2025-04-21T00:00:00",
+      "type": "github_pr"
+    },
+    {
+      "title": "新卒1年目やってよかったこと",
+      "url": "https://qiita.com/ballemech/items/9b5ac6f9994549867049",
+      "date": "2025-04-15T23:48:48",
+      "type": "qiita"
+    },
+    {
+      "title": "RaspberryPiで計測した気温室温データをAzure Databricksのボリュームに定期アップロード",
+      "url": "https://qiita.com/ballemech/items/22e31dea041498d1326f",
+      "date": "2025-04-13T22:53:02",
+      "type": "qiita"
+    },
+    {
+      "title": "balle-mech/raspi-temp-humidity-pipeline",
+      "url": "https://github.com/balle-mech/raspi-temp-humidity-pipeline/pulls?q=is:pr+author:balle-mech",
+      "date": "2025-04-09T00:00:00",
+      "type": "github_pr"
+    },
+    {
+      "title": "「データ活用基盤？なにそれおいしいの？」新卒1年目を振り返る",
+      "url": "https://qiita.com/ballemech/items/3cd3741dda032358dfa7",
+      "date": "2025-04-06T20:15:43",
+      "type": "qiita"
+    },
+    {
+      "title": "Azure DatabricksのUnity Catalogでカタログを使えるようにするまで",
+      "url": "https://qiita.com/ballemech/items/0b77b159aba6d27f5ab6",
+      "date": "2025-04-06T13:07:53",
+      "type": "qiita"
+    },
+    {
+      "title": "balle-mech/Quantum_programming",
+      "url": "https://github.com/balle-mech/Quantum_programming/pulls?q=is:pr+author:balle-mech",
+      "date": "2025-03-25T00:00:00",
+      "type": "github_pr"
+    },
+    {
+      "title": "【LAPRASユーザー限定イベント】アウトプットしよう「LAPRASもくもく会」3月",
+      "url": "https://lapras.connpass.com/event/346352/",
+      "date": "2025-03-19T00:00:00",
+      "type": "connpass"
+    },
+    {
+      "title": "Databricksと学ぶDeepSeek！ 〜これからのLLMに備えよ！〜",
+      "url": "https://redbrick.connpass.com/event/345123/",
+      "date": "2025-03-04T00:00:00",
+      "type": "connpass"
+    },
+    {
+      "title": "Raspberry Pi 5とDHT-11で温度・湿度を計測する",
+      "url": "https://qiita.com/ballemech/items/b8cd6165fbb7187b5e78",
+      "date": "2025-03-02T19:31:22",
+      "type": "qiita"
+    },
+    {
+      "title": "balle-mech/raspi-temp-humidity-pipeline",
+      "url": "https://github.com/balle-mech/raspi-temp-humidity-pipeline",
+      "date": "2025-03-02T19:10:48",
+      "type": "github"
+    },
+    {
+      "title": "Raspberry PiとAzure VMを使ってAPIを外部公開",
+      "url": "https://qiita.com/ballemech/items/29aaf92993d396847ace",
+      "date": "2025-03-01T16:18:59",
+      "type": "qiita"
+    },
+    {
+      "title": "レイクハウスって結局何なのっていいました？じゃあ真のレイクハウスをみせてやりますよ！",
+      "url": "https://redbrick.connpass.com/event/341139/",
+      "date": "2025-01-27T00:00:00",
+      "type": "connpass"
+    },
+    {
+      "title": "datatech-jp Casual Talks #6",
+      "url": "https://datatech-jp.connpass.com/event/337374/",
+      "date": "2025-01-20T00:00:00",
+      "type": "connpass"
+    },
+    {
+      "title": "【天才！Z世代に聞く！】若手エンジニアのキャリア形成とは",
+      "url": "https://connpass.com/event/339840/",
+      "date": "2024-12-26T00:00:00",
+      "type": "connpass"
+    },
+    {
+      "title": "夜もく会　12/25(水)",
+      "url": "https://yoru-moku.connpass.com/event/340923/",
+      "date": "2024-12-25T00:00:00",
+      "type": "connpass"
+    },
+    {
+      "title": "balle-mech/hot-bubbles-api",
+      "url": "https://github.com/balle-mech/hot-bubbles-api/pulls?q=is:pr+author:balle-mech",
+      "date": "2024-12-25T00:00:00",
+      "type": "github_pr"
+    },
+    {
+      "title": "balle-mech/hot-bubbles-api",
+      "url": "https://github.com/balle-mech/hot-bubbles-api/pulls?q=is:pr+author:balle-mech",
+      "date": "2024-12-22T00:00:00",
+      "type": "github_pr"
+    },
+    {
+      "title": "balle-mech/hot-bubbles-api",
+      "url": "https://github.com/balle-mech/hot-bubbles-api",
+      "date": "2024-12-15T21:21:47",
+      "type": "github"
+    },
+    {
+      "title": "balle-mech/Quantum_programming",
+      "url": "https://github.com/balle-mech/Quantum_programming",
+      "date": "2024-12-04T09:06:25",
+      "type": "github"
+    },
+    {
+      "title": "balle-mech/deep-learning-from-scratch",
+      "url": "https://github.com/balle-mech/deep-learning-from-scratch",
+      "date": "2024-11-29T21:02:11",
+      "type": "github"
+    },
+    {
+      "title": "balle-mech/hot-bubbles-front",
+      "url": "https://github.com/balle-mech/hot-bubbles-front/pulls?q=is:pr+author:balle-mech",
+      "date": "2024-11-24T00:00:00",
+      "type": "github_pr"
+    },
+    {
+      "title": "balle-mech/hot-bubbles-front",
+      "url": "https://github.com/balle-mech/hot-bubbles-front/pulls?q=is:pr+author:balle-mech",
+      "date": "2024-11-22T00:00:00",
+      "type": "github_pr"
+    },
+    {
+      "title": "データに関する基本用語",
+      "url": "https://qiita.com/ballemech/items/0294251e06fbda444d2a",
+      "date": "2024-11-04T20:37:15",
+      "type": "qiita"
+    },
+    {
+      "title": "balle-mech/doodle-code",
+      "url": "https://github.com/balle-mech/doodle-code/pulls?q=is:pr+author:balle-mech",
+      "date": "2024-11-04T00:00:00",
+      "type": "github_pr"
+    },
+    {
+      "title": "balle-mech/hot-bubbles-front",
+      "url": "https://github.com/balle-mech/hot-bubbles-front",
+      "date": "2024-11-02T12:35:40",
+      "type": "github"
+    },
+    {
+      "title": "balle-mech/hot-bubbles-front",
+      "url": "https://github.com/balle-mech/hot-bubbles-front/pulls?q=is:pr+author:balle-mech",
+      "date": "2024-11-02T00:00:00",
+      "type": "github_pr"
+    },
+    {
+      "title": "JEDAI in Osaka 2024 (ハイブリッド開催)",
+      "url": "https://jedai.connpass.com/event/329313/",
+      "date": "2024-11-01T00:00:00",
+      "type": "connpass"
+    },
+    {
+      "title": "【karabiner-elements】新しいワイヤレスキーボードにしたらかなと英数の変換ができなくなった",
+      "url": "https://qiita.com/ballemech/items/4656230ff167b93ef960",
+      "date": "2024-10-12T15:16:31",
+      "type": "qiita"
+    },
+    {
+      "title": "オフラインITカンファレンス初参加感想",
+      "url": "https://qiita.com/ballemech/items/2e62aa20d658e26cc2ab",
+      "date": "2024-09-29T23:15:32",
+      "type": "qiita"
+    },
+    {
+      "title": "XP祭り2024 現地ワークショップ第二部",
+      "url": "https://xpjug.connpass.com/event/327664/",
+      "date": "2024-09-28T00:00:00",
+      "type": "connpass"
+    },
+    {
+      "title": "XP祭り2024 参加＆LT募集！！",
+      "url": "https://xpjug.connpass.com/event/326033/",
+      "date": "2024-09-28T00:00:00",
+      "type": "connpass"
+    },
+    {
+      "title": "【テスト駆動開発】t-wadaさんのLiveコーディングから学んだこと",
+      "url": "https://qiita.com/ballemech/items/22ae599d5e6ac388d776",
+      "date": "2024-09-23T19:02:45",
+      "type": "qiita"
+    },
+    {
+      "title": "RSwagを使ったAPI仕様書の自動作成",
+      "url": "https://qiita.com/ballemech/items/bd25e1e182b9b466ed12",
+      "date": "2024-09-16T10:06:08",
+      "type": "qiita"
+    },
+    {
+      "title": "balle-mech/poc-javaee",
+      "url": "https://github.com/balle-mech/poc-javaee/pulls?q=is:pr+author:balle-mech",
+      "date": "2024-09-06T00:00:00",
+      "type": "github_pr"
+    },
+    {
+      "title": "balle-mech/poc-javaee",
+      "url": "https://github.com/balle-mech/poc-javaee",
+      "date": "2024-08-30T12:55:50",
+      "type": "github"
+    },
+    {
+      "title": "balle-mech/train-nari-api",
+      "url": "https://github.com/balle-mech/train-nari-api/pulls?q=is:pr+author:balle-mech",
+      "date": "2024-08-19T00:00:00",
+      "type": "github_pr"
+    },
+    {
+      "title": "rswagでAPI仕様書自動生成するときにindexアクションの扱いに困った",
+      "url": "https://qiita.com/ballemech/items/382352fb6901c6d9287b",
+      "date": "2024-08-18T20:43:10",
+      "type": "qiita"
+    },
+    {
+      "title": "balle-mech/train-nari-api",
+      "url": "https://github.com/balle-mech/train-nari-api/pulls?q=is:pr+author:balle-mech",
+      "date": "2024-08-14T00:00:00",
+      "type": "github_pr"
+    },
+    {
+      "title": "balle-mech/train-nari-front",
+      "url": "https://github.com/balle-mech/train-nari-front",
+      "date": "2024-08-03T22:41:37",
+      "type": "github"
+    },
+    {
+      "title": "balle-mech/train-nari-api",
+      "url": "https://github.com/balle-mech/train-nari-api/pulls?q=is:pr+author:balle-mech",
+      "date": "2024-07-28T00:00:00",
+      "type": "github_pr"
+    },
+    {
+      "title": "balle-mech/train-nari-api",
+      "url": "https://github.com/balle-mech/train-nari-api/pulls?q=is:pr+author:balle-mech",
+      "date": "2024-07-27T00:00:00",
+      "type": "github_pr"
+    },
+    {
+      "title": "balle-mech/train-nari-api",
+      "url": "https://github.com/balle-mech/train-nari-api/pulls?q=is:pr+author:balle-mech",
+      "date": "2024-07-15T00:00:00",
+      "type": "github_pr"
+    },
+    {
+      "title": "【JavaEE】CDIのDI",
+      "url": "https://qiita.com/ballemech/items/058b76e647024836babe",
+      "date": "2024-06-04T23:52:14",
+      "type": "qiita"
+    },
+    {
+      "title": "balle-mech/planning-poker",
+      "url": "https://github.com/balle-mech/planning-poker",
+      "date": "2024-05-18T21:21:12",
+      "type": "github"
+    },
+    {
+      "title": "balle-mech/dotfiles",
+      "url": "https://github.com/balle-mech/dotfiles",
+      "date": "2024-04-29T12:07:35",
+      "type": "github"
+    },
+    {
+      "title": "balle-mech/robot-control-engineering",
+      "url": "https://github.com/balle-mech/robot-control-engineering",
+      "date": "2023-12-28T16:20:54",
+      "type": "github"
+    },
+    {
+      "title": "balle-mech/if_then_card",
+      "url": "https://github.com/balle-mech/if_then_card/pulls?q=is:pr+author:balle-mech",
+      "date": "2023-12-27T00:00:00",
+      "type": "github_pr"
+    },
+    {
+      "title": "AttributeError: partially initialized module 'cv2' has no attribute 'dnn'",
+      "url": "https://qiita.com/ballemech/items/e32d8db300bdc788755a",
+      "date": "2023-12-07T17:39:48",
+      "type": "qiita"
+    },
+    {
+      "title": "balle-mech/if_then_card",
+      "url": "https://github.com/balle-mech/if_then_card",
+      "date": "2023-09-24T20:36:01",
+      "type": "github"
+    },
+    {
+      "title": "Tech BASE Okinawa 2023",
+      "url": "https://codebase.connpass.com/event/285901/",
+      "date": "2023-09-23T00:00:00",
+      "type": "connpass"
+    },
+    {
+      "title": "balle-mech/typescript-tutorial",
+      "url": "https://github.com/balle-mech/typescript-tutorial",
+      "date": "2023-09-01T17:05:04",
+      "type": "github"
+    },
+    {
+      "title": "Quick LaTeX for Obsidian でLaTexを高速記述",
+      "url": "https://qiita.com/ballemech/items/f71a0d832ff14b3c5518",
+      "date": "2023-08-05T10:19:37",
+      "type": "qiita"
+    },
+    {
+      "title": "balle-mech/Illegal-Dumping-Detection",
+      "url": "https://github.com/balle-mech/Illegal-Dumping-Detection",
+      "date": "2023-05-25T16:02:11",
+      "type": "github"
+    },
+    {
+      "title": "【M1 Mac】anacondaにtensorflowをinstall・importできない(Could not find a version that satisfies the requirement)",
+      "url": "https://qiita.com/ballemech/items/ce1494fc3eda50dcc109",
+      "date": "2023-05-06T19:55:11",
+      "type": "qiita"
+    }
+  ]
+}
