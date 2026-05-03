@@ -82,8 +82,10 @@ App
 ├── Header
 │   └── MobileMenu
 ├── HeroSection
-├── OutputSection
+├── OutputSection        ← Lapras API: github_repositories
+├── ActivitiesSection    ← Lapras API: activities
 ├── SkillsSection
+├── CertificationsSection ← 静的定数（src内で管理）
 └── ContactSection
 ```
 
@@ -124,6 +126,13 @@ UI 更新
 ## API 設計
 
 ### 外部サービス連携
+
+#### Lapras Public API (動的コンテンツ)
+- **エンドポイント**: `https://lapras.com/public/KKNCVCX.json`
+- **呼び出し方式**: クライアントサイドフェッチ（`useLaprasData` カスタムフック）
+- **取得データ**: `activities`、`github_repositories`、`blog_articles`
+- **フィルタ**: github_repositories は `is_owner === true && is_fork === false` のみ表示
+- **表示件数**: activities は日付降順で最新20件
 
 #### Formspree (お問い合わせフォーム)
 - **選定理由**: サーバーレス、無料プラン、簡単な統合
@@ -214,5 +223,5 @@ feature/xxx → develop → main → GitHub Pages
 
 ---
 
-**最終更新日**: 2026-03-29
-**バージョン**: 1.0
+**最終更新日**: 2026-05-03
+**バージョン**: 1.1

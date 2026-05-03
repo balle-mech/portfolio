@@ -2,7 +2,7 @@ const ContactSection = () => {
   return (
     <div
       id="contact"
-      className="container mx-auto mt-32 mb-20 flex w-full items-center justify-between px-8 md:px-5 lg:px-15"
+      className="container mx-auto mt-64 mb-20 flex w-full items-center justify-between px-8 md:px-5 lg:px-15"
     >
       <section className="w-full">
         <h2 className="secondary-title">お問い合わせ</h2>

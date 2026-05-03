@@ -15,6 +15,13 @@ export default defineConfig({
     port: 3000,
     host: "0.0.0.0",
     open: false,
+    proxy: {
+      "/lapras.json": {
+        target: "https://lapras.com",
+        changeOrigin: true,
+        rewrite: () => "/public/KKNCVCX.json",
+      },
+    },
   },
   css: {
     postcss: {

@@ -28,6 +28,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Fetch Lapras data
+        run: node fetch-lapras.mjs
+
       - name: Build
         run: npm run build
         env:
