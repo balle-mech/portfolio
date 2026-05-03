@@ -1,46 +1,109 @@
-const OutputSection = () => {
+import type { GitHubRepository } from "../hooks/useLaprasData";
+
+const LANGUAGE_COLORS: Record<string, string> = {
+  TypeScript: "bg-blue-500",
+  JavaScript: "bg-yellow-400",
+  Python: "bg-sky-400",
+  Ruby: "bg-red-500",
+  CSS: "bg-purple-400",
+  HTML: "bg-orange-500",
+  Go: "bg-cyan-400",
+  Rust: "bg-orange-600",
+  Java: "bg-orange-400",
+  Shell: "bg-gray-400",
+};
+
+interface OutputSectionProps {
+  repositories: GitHubRepository[];
+  loading: boolean;
+  error: Error | null;
+}
+
+const RepoCard = ({ repo }: { repo: GitHubRepository }) => {
+  const name = repo.title.includes("/") ? repo.title.split("/")[1] : repo.title;
+  const colorClass = LANGUAGE_COLORS[repo.language] ?? "bg-gray-500";
+
   return (
-    <div
-      id="output"
-      className="container mx-auto mt-64 flex w-full items-center justify-between px-8 md:px-5 lg:px-15"
+    <a
+      href={repo.url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="group flex flex-col gap-3 border border-purple-300 p-6 rounded-md transition-all duration-300 hover:border-yellow-300"
     >
-      <section className="w-full">
-        <h2 className="secondary-title">私のアウトプット</h2>
-        <p className="section-paragraph">私のアウトプットはこちら</p>
-        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-          <img
-            src="images/portfolio1.jpg"
-            alt=""
-            className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"
-          />
-          <img
-            src="images/portfolio2.jpg"
-            alt=""
-            className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"
-          />
-          <img
-            src="images/portfolio3.jpg"
-            alt=""
-            className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"
-          />
-          <img
-            src="images/portfolio4.jpg"
-            alt=""
-            className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"
-          />
-          <img
-            src="images/portfolio5.jpg"
-            alt=""
-            className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"
-          />
-          <img
-            src="images/portfolio6.jpg"
-            alt=""
-            className="h-36 w-full cursor-pointer rounded-md object-cover lg:h-72"
-          />
+      <div className="flex items-center gap-2">
+        <i className="fa-brands fa-github text-lg text-secondary group-hover:text-white transition-colors duration-300"></i>
+        <h3 className="font-semibold text-base truncate">{name}</h3>
+      </div>
+      {repo.description && (
+        <p className="text-secondary text-sm leading-relaxed line-clamp-2 flex-1">
+          {repo.description}
+        </p>
+      )}
+      <div className="flex items-center gap-4 text-sm text-secondary mt-auto">
+        {repo.language && (
+          <span className="flex items-center gap-1.5">
+            <span className={`inline-block w-3 h-3 rounded-full ${colorClass}`}></span>
+            {repo.language}
+          </span>
+        )}
+        {repo.stargazers_count > 0 && (
+          <span>
+            <i className="fa-solid fa-star text-yellow-300 mr-1"></i>
+            {repo.stargazers_count}
+          </span>
+        )}
+        {repo.forks > 0 && (
+          <span>
+            <i className="fa-solid fa-code-fork mr-1"></i>
+            {repo.forks}
+          </span>
+        )}
+      </div>
+    </a>
+  );
+};
+
+const PINNED_REPOS = [
+  "news-digest",
+  "dotfiles",
+  "data-engineering-handson-sdp",
+  "databricks-rag",
+  "Illegal-Dumping-Detection",
+];
+
+const OutputSection = ({ repositories, loading, error }: OutputSectionProps) => {
+  const repos = PINNED_REPOS.flatMap((name) => {
+    const found = repositories.find((r) => r.title === name || r.title.endsWith(`/${name}`));
+    return found ? [found] : [];
+  });
+
+  return (
+    <section id="output" className="w-full">
+      <h2 className="secondary-title">GitHubリポジトリ</h2>
+
+      {loading && (
+        <div className="mt-6 grid grid-cols-1 gap-6">
+          {[...Array(4)].map((_, i) => (
+            <div
+              key={i}
+              className="border border-purple-300/30 rounded-md p-6 h-32 animate-pulse bg-gray-800/20"
+            />
+          ))}
         </div>
-      </section>
-    </div>
+      )}
+
+      {error && (
+        <p className="mt-6 text-secondary">リポジトリの取得に失敗しました。</p>
+      )}
+
+      {!loading && !error && (
+        <div className="mt-6 grid grid-cols-1 gap-6">
+          {repos.map((repo) => (
+            <RepoCard key={repo.id} repo={repo} />
+          ))}
+        </div>
+      )}
+    </section>
   );
 };
 

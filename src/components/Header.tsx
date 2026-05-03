@@ -11,16 +11,22 @@ const Header = () => {
           <div className="text-lg font-bold">balle-mech</div>
           <nav className="hidden items-center space-x-12 md:flex">
             <a
-              href="#output"
+              href="#certifications"
               className="hover:text-selected-text transition-all duration-300"
             >
-              アウトプット
+              資格
             </a>
             <a
               href="#skills"
               className="hover:text-selected-text transition-all duration-300"
             >
-              スキル一覧
+              スキル
+            </a>
+            <a
+              href="#activities"
+              className="hover:text-selected-text transition-all duration-300"
+            >
+              活動履歴
             </a>
             <a href="#contact">
               <button className="button w-full transform">お問い合わせ</button>

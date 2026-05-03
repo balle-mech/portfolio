@@ -14,7 +14,8 @@
     "preview": "vite preview",
     "test": "jest --env=jsdom",
     "css:build": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --minify",
-    "css:watch": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+    "css:watch": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch",
+    "fetch-lapras": "node fetch-lapras.mjs"
   },
   "devDependencies": {
     "@babel/core": "^7.28.4",

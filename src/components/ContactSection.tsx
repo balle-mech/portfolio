@@ -2,21 +2,21 @@ const ContactSection = () => {
   return (
     <div
       id="contact"
-      className="container mx-auto mt-50 mb-20 flex w-full items-center justify-between px-8 md:px-5 lg:px-15"
+      className="container mx-auto mt-64 mb-20 flex w-full items-center justify-between px-8 md:px-5 lg:px-15"
     >
       <section className="w-full">
         <h2 className="secondary-title">お問い合わせ</h2>
-        <div className="mt-16 grid w-full gap-8 lg:grid-cols-2 lg:gap-32">
-          <div className="space-y-12">
+        <div className="mt-12 grid w-full gap-8 lg:grid-cols-2 lg:gap-32">
+          <div className="space-y-6">
             <form
               action="https://formspree.io/f/manbgpyy"
               method="POST"
-              className="space-y-12"
+              className="space-y-6"
             >
               <div>
                 <label
                   htmlFor="name"
-                  className="mb-6 block text-xl font-bold text-white"
+                  className="mb-2 block text-lg font-bold text-white"
                 >
                   お名前 <span className="text-red-400">*</span>
                 </label>
@@ -26,14 +26,14 @@ const ContactSection = () => {
                   type="text"
                   required
                   aria-describedby="name-error"
-                  className="border-inputBorder bg-input w-full border px-4 py-4"
+                  className="border-inputBorder bg-input w-full border px-4 py-3"
                 />
               </div>
 
               <div>
                 <label
                   htmlFor="email"
-                  className="mb-6 block text-xl font-bold text-white"
+                  className="mb-2 block text-lg font-bold text-white"
                 >
                   メールアドレス <span className="text-red-400">*</span>
                 </label>
@@ -43,14 +43,14 @@ const ContactSection = () => {
                   type="email"
                   required
                   aria-describedby="email-error"
-                  className="border-inputBorder bg-input w-full border px-4 py-4"
+                  className="border-inputBorder bg-input w-full border px-4 py-3"
                 />
               </div>
 
               <div>
                 <label
                   htmlFor="message"
-                  className="mb-6 block text-xl font-bold text-white"
+                  className="mb-2 block text-lg font-bold text-white"
                 >
                   メッセージ <span className="text-red-400">*</span>
                 </label>
@@ -58,9 +58,9 @@ const ContactSection = () => {
                   id="message"
                   name="message"
                   required
-                  rows={6}
+                  rows={5}
                   aria-describedby="message-error"
-                  className="border-inputBorder bg-input resize-vertical w-full border px-4 py-4"
+                  className="border-inputBorder bg-input resize-vertical w-full border px-4 py-3"
                 ></textarea>
               </div>
 

@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   root: "src",
   publicDir: "../public",
-  base: process.env.VITE_BASE_PATH || "/portfolio/",
+  base: process.env.VITE_BASE_PATH || "/",
   build: {
     outDir: "../dist",
     emptyOutDir: true,
@@ -15,6 +15,13 @@ export default defineConfig({
     port: 3000,
     host: "0.0.0.0",
     open: false,
+    proxy: {
+      "/lapras.json": {
+        target: "https://lapras.com",
+        changeOrigin: true,
+        rewrite: () => "/public/KKNCVCX.json",
+      },
+    },
   },
   css: {
     postcss: {
