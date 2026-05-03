@@ -9,5 +9,8 @@ todo.md
 .DS_Store
 *.log
 
+# Lapras data (generated at build time: npm run fetch-lapras)
+public/lapras.json
+
 # Claude steering documents are tracked in Git
 # (.claude/steering/active/ and .claude/steering/archive/ are version controlled)

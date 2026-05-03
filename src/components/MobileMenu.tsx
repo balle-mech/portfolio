@@ -19,12 +19,12 @@ const MobileMenu = ({ isOpen, onClose }: MobileMenuProps) => {
     >
       <div className="py-3">
         <a
-          href="#output"
+          href="#certifications"
           onClick={handleLinkClick}
           className="mobile-menu-link hover:text-selected-text group mx-3 flex items-center rounded-xl px-6 py-4 text-white transition-all duration-200 hover:bg-gray-800/50"
         >
-          <i className="fa-solid fa-briefcase group-hover:text-selected-text w-5 text-gray-400 transition-colors duration-200"></i>
-          <span className="ml-4 text-lg font-medium">アウトプット</span>
+          <i className="fa-solid fa-certificate group-hover:text-selected-text w-5 text-gray-400 transition-colors duration-200"></i>
+          <span className="ml-4 text-lg font-medium">資格</span>
         </a>
         <a
           href="#skills"
@@ -32,7 +32,15 @@ const MobileMenu = ({ isOpen, onClose }: MobileMenuProps) => {
           className="mobile-menu-link hover:text-selected-text group mx-3 flex items-center rounded-xl px-6 py-4 text-white transition-all duration-200 hover:bg-gray-800/50"
         >
           <i className="fa-solid fa-code group-hover:text-selected-text w-5 text-gray-400 transition-colors duration-200"></i>
-          <span className="ml-4 text-lg font-medium">スキル一覧</span>
+          <span className="ml-4 text-lg font-medium">スキル</span>
+        </a>
+        <a
+          href="#activities"
+          onClick={handleLinkClick}
+          className="mobile-menu-link hover:text-selected-text group mx-3 flex items-center rounded-xl px-6 py-4 text-white transition-all duration-200 hover:bg-gray-800/50"
+        >
+          <i className="fa-solid fa-chart-line group-hover:text-selected-text w-5 text-gray-400 transition-colors duration-200"></i>
+          <span className="ml-4 text-lg font-medium">活動履歴</span>
         </a>
         <div className="mx-3 mt-3 border-t border-gray-700/30 pt-3">
           <a href="#contact" onClick={handleLinkClick} className="mobile-menu-link block px-3 py-2">
