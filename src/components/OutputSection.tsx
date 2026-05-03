@@ -63,11 +63,19 @@ const RepoCard = ({ repo }: { repo: GitHubRepository }) => {
   );
 };
 
+const PINNED_REPOS = [
+  "news-digest",
+  "dotfiles",
+  "data-engineering-handson-sdp",
+  "databricks-rag",
+  "Illegal-Dumping-Detection",
+];
+
 const OutputSection = ({ repositories, loading, error }: OutputSectionProps) => {
-  const repos = repositories
-    .filter((r) => r.is_owner && !r.is_fork)
-    .sort((a, b) => b.stargazers_count - a.stargazers_count)
-    .slice(0, 6);
+  const repos = PINNED_REPOS.flatMap((name) => {
+    const found = repositories.find((r) => r.title === name || r.title.endsWith(`/${name}`));
+    return found ? [found] : [];
+  });
 
   return (
     <section id="output" className="w-full">
